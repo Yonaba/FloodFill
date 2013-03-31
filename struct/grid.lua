@@ -4,8 +4,8 @@ local grid = {_map = {}, _width = 0, _height= 0}
 
 function grid:new(width, height)
 	local g = setmetatable({},grid)
-	for y = 1, height do grid._map[y] = {}
-		for x = 1, width do grid._map[y][x] = 0 end
+	for y = 1, height do g._map[y] = {}
+		for x = 1, width do g._map[y][x] = 0 end
 	end
 	return g
 end
@@ -16,6 +16,7 @@ end
 
 function grid:set(x,y,value)
 	if self:isLegit(x,y) then self._map[y][x] = value end
+	return self
 end
 
 function grid:get(x,y)
@@ -29,6 +30,13 @@ function grid:isFilled()
 		end
 	end
 	return true
+end
+
+function grid:reset()
+	for y = 1, height do self._map[y] = {}
+		for x = 1, width do self._map[y][x] = 0 end
+	end
+	return self
 end
 
 return grid
