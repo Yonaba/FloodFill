@@ -1,26 +1,28 @@
 -- A Grid data structure
 
-local grid = {_map = {}, _width = 0, _height= 0}
+local grid = {_map = {}, _width = 0, _height = 0}
+grid.__index = grid
 
 function grid:new(width, height)
 	local g = setmetatable({},grid)
-	for y = 1, height do g._map[y] = {}
-		for x = 1, width do g._map[y][x] = 0 end
+	g._width, g._height = width, height
+	for y = 1, g._height do g._map[y] = {}
+		for x = 1, g._width do g._map[y][x] = 0 end
 	end
 	return g
 end
 
 function grid:isLegit(x,y)
-	return (x>0 and x<grid._width) and (y>0 and y<grid._height)
+	return (x>0 and x<=self._width) and (y>0 and y<=self._height)
 end
 
 function grid:set(x,y,value)
-	if self:isLegit(x,y) then self._map[y][x] = value end
+	self._map[y][x] = value
 	return self
 end
 
 function grid:get(x,y)
-	return grid._map[y] and grid._map[y][x]
+	return self._map[y] and self._map[y][x]
 end
 
 function grid:isFilled()
@@ -33,8 +35,8 @@ function grid:isFilled()
 end
 
 function grid:reset()
-	for y = 1, height do self._map[y] = {}
-		for x = 1, width do self._map[y][x] = 0 end
+	for y = 1, self._height do
+		for x = 1, self._width do self._map[y][x] = 0 end
 	end
 	return self
 end
