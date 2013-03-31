@@ -26,4 +26,10 @@ function stack:isEmpty()
 	return (self._pointer == 0)
 end
 
+function stack:clear()
+	self._stack = {}
+	self._pointer = 0
+	return self
+end
+
 return stack
