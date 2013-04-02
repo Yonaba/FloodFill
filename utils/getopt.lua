@@ -49,9 +49,7 @@ local defArgs = {
 local function getOpt(str)
 	str = str or ''
 	local args = {}
-	print('str',str)
 	for optArg, value in str:gmatch('%-(%w+)%s*=%s*([%_%-%.%w+]+)') do
-		print(optArg,value)
 		if defArgs[optArg] then
 			if value then
 				assert(defArgs[optArg].assert(value),
