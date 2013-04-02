@@ -3,12 +3,10 @@
 local grid = {_map = {}, _width = 0, _height = 0}
 grid.__index = grid
 
-function grid:new(width, height)
+function grid:new(map)
 	local g = setmetatable({},grid)
-	g._width, g._height = width, height
-	for y = 1, g._height do g._map[y] = {}
-		for x = 1, g._width do g._map[y][x] = {x = x, y = y, v = 0} end
-	end
+	g._width, g._height = #map[1], #map
+	g._map = map
 	return g
 end
 
