@@ -1,6 +1,8 @@
 local function flood8stack(x, y, grid, stack)
 	stack:clear()
-	if grid:has(x,y) then stack:push(grid._map[y][x]) end
+	if grid:has(x,y) and grid._map[y][x]==0 then
+		stack:push(grid._map[y][x])
+	end
 	while not stack:isEmpty() do
 		local p = stack:pop()
 		local actualValue = p.v

@@ -1,10 +1,10 @@
 local function flood4stack(x, y, grid, stack)
 	stack:clear()
-	if grid:has(x,y) then
-		stack:push(grid._map[y][x]) 
+	if grid:has(x,y) and grid._map[y][x]==0 then
+		stack:push(grid._map[y][x])
 	end
 	while not stack:isEmpty() do
-		local p = stack:pop()	
+		local p = stack:pop()
 		local actualValue = p.v
 		if (actualValue == 0) then
 			x, y = p.x, p.y
