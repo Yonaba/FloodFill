@@ -24,8 +24,8 @@ function grid:get(x,y)
 end
 
 function grid:isFlooded()
-	for y = 1, self._width do
-		for x = 1, self._height do
+	for y = 1, self._height do
+		for x = 1, self._width do
 			if self._map[y][x].v == 0 then return false end
 		end
 	end
@@ -37,6 +37,10 @@ function grid:reset()
 		for x = 1, self._width do self._map[y][x].v = 0 end
 	end
 	return self
+end
+
+function grid:clone()
+	return self:new(self._map)
 end
 
 return grid
