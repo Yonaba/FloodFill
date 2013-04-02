@@ -42,7 +42,7 @@ local function parseMap(mapFile)
   local _,map_offset = map_data:find('map[\n\r]')
   map_data = map_data:sub(map_offset+1)
   local map = {}
-  local row_count = 0
+  local row_count = 1
   repeat
     local EOS = map_data:find('[\n\r]')
     if EOS then
@@ -50,7 +50,7 @@ local function parseMap(mapFile)
       map_data = map_data:sub(EOS+1)
       map[row_count] = {}
       local row = map[#map]
-	    local col_count = 0
+	    local col_count = 1
         for char in line:gmatch('.') do
           row[col_count] = {x = col_count, y = row_count, v = char:match('[.G]') and 0 or 1}
 					col_count = col_count+1
@@ -58,8 +58,8 @@ local function parseMap(mapFile)
     end
 	row_count = row_count+1
   until not EOS
-  assert(#map+1 == map_height,'Error parsing map')
-  assert(#map[1]+1 == map_width,'Error parsing map')
+  assert(#map == map_height,'Error parsing map')
+  assert(#map[1] == map_width,'Error parsing map')
   return map
 end
 
