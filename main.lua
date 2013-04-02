@@ -133,7 +133,7 @@ local function main(args)
 			collectgarbage()
 			local time = benchmark(floodGrid, f.func, cgrid, f.struct)
 			times[i] = time
-			assert(cgrid:isFlooded(), ('FloodFill failed on run %d'):format(i))
+			assert(cgrid:isFlooded(), ('FloodFill failed on run %d (with %s)'):format(i, f.name))
 		end
 
 		local m = mean(times)
