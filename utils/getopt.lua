@@ -1,3 +1,4 @@
+
 local fExists = function(file)
 	local f = io.open(file)
 	return (f~=nil)
@@ -34,9 +35,9 @@ local defArgs = {
 		local v = tonumber(v)
 		return v and v>0
 	end},
-	['m'] = {value = 'orz203d', assert = function(v)
+	['m'] = {value = 'all', assert = function(v)
 		 v = not v:find('%.map$') and v .. '.map' or v
-		return fExists(('maps/%s'):format(v))
+		return fExists(('maps/%s'):format(v)) or v=='all'
 	end},
 	['i'] = {value = '', assert = function(v)
 		return fSetExists(v)
