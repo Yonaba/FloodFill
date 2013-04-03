@@ -2,7 +2,6 @@
 -- See http://movingai.com/benchmarks/formats.html
 
 local tonumber, assert, io = tonumber, assert, io
-local mapFilesPath = 'maps/%s'
 
 -- Gets a file contents
 local function getFileContents(file)
@@ -35,7 +34,7 @@ end
 
 -- Parses a map file
 local function parseMap(mapFile)
-  local map_data = getFileContents(mapFilesPath:format(mapFile))
+  local map_data = getFileContents(mapFile)
   local map_type = map_data:match('^type (%w+)[\n\r]')
   local map_height = tonumber(map_data:match('height (%d+)[\n\r]'))
   local map_width = tonumber(map_data:match('width (%d+)[\n\r]'))
