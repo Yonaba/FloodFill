@@ -30,7 +30,7 @@ local extend = function(dest, source)
 end
 
 local defArgs = {
-	['r'] = {value = 10, assert = function(v)
+	['n'] = {value = 10, assert = function(v)
 		local v = tonumber(v)
 		return v and v>0
 	end},
