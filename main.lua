@@ -24,6 +24,12 @@ local floodFuncs = {
   {name = 'floodQueueEast2West', func = require 'floodfill.floodeast2west',     struct = Queue:new()},
 }
 
+local maps = {}
+local lfs = require('lfs')
+for f in lfs.dir(lfs.currentdir() ..'\\maps') do
+	if f~='.' and f~='..' then maps[#maps+1] = ('maps/%s'):format(f) end
+end
+
 -- Headers for pretty-printing of results
 local TEST_HEADER = ('Map: %s: Grid size: %04dx%04d - (%02d runs)\n')
 local TEST_RSLT   = ('%19s: %07.2f ms - stDev: %07.2f ms')
@@ -56,8 +62,9 @@ local function diff(source, some)
 end
 
 -- Appends .map if needed on a mapfile name
-local getMapName = function(mapFile)
-	return mapFile:match('%.map$') and mapFile or mapFile .. '.map'
+local format2MapName = function(mapFile)
+	local appendExt = mapFile:match('%.map$') and mapFile or mapFile .. '.map'
+	return mapFile:match('^maps/.+%.map$') and mapFile or 'maps/'..mapFile
 end
 
 -- Collect keys as an array from a dict-like table
@@ -67,7 +74,7 @@ local keys = function(t)
 	return k
 end
 
--- Parses string to table, using "%." as entry delimiter 
+-- Parses string to table, using "%." as entry delimiter
 local toTable = function(str)
 	local no_dup = {}
 	for w in str:gmatch('%.*(%w+)%.*') do no_dup[w] = true end
@@ -105,11 +112,10 @@ end
 
 -- Main function, run tests
 local function main(args)
-	local n_times = args.r
-	local mapName = getMapName(args.m)
+	local n_times = args.n
 	local ignore = args.i~='' and toTable(args.i)
-  local use = args.u~= '' and toTable(args.u)
-	
+	local use = args.u~= '' and toTable(args.u)
+
 	-- Flood functions to be used
 	local flfuncs
 	if use then flfuncs = only(floodFuncs, use)
@@ -119,28 +125,32 @@ local function main(args)
 	end
 
 	-- Makes a grid
-	local map = parse(mapName)
-	local grid = Grid:new(map)
-	
-	-- Run tests
-	print(TEST_HEADER:format(mapName, grid._width, grid._height, n_times))
+	local maps = args.m == 'all' and maps or {format2MapName(args.m)}
 
-	for _,f in ipairs(flfuncs) do
-		local times = {}
+	for i,mapName in ipairs(maps) do
+		local map = parse(mapName)
+		local grid = Grid:new(map)
 
-		for i = 1, n_times do
-			local cgrid = grid:clone()
-			collectgarbage()
-			local time = benchmark(floodGrid, f.func, cgrid, f.struct)
-			times[i] = time
-			assert(cgrid:isFlooded(), ('FloodFill failed on run %d (with %s)'):format(i, f.name))
+		-- Run tests
+		print(TEST_HEADER:format(mapName, grid._width, grid._height, n_times))
+
+		for _,f in ipairs(flfuncs) do
+			local times = {}
+
+			for i = 1, n_times do
+				local cgrid = grid:clone()
+				collectgarbage()
+				local time = benchmark(floodGrid, f.func, cgrid, f.struct)
+				times[i] = time
+				assert(cgrid:isFlooded(), ('FloodFill failed on run %d (with %s)'):format(i, f.name))
+			end
+
+			local m = mean(times)
+			local sDev = stdDev(times, m)
+			print(TEST_RSLT:format(f.name, m, sDev))
 		end
-
-		local m = mean(times)
-		local sDev = stdDev(times, m)
-		print(TEST_RSLT:format(f.name, m, sDev))
 	end
-
+	
 end
 
 -- GetOpt from cmd-line and run
@@ -148,7 +158,7 @@ local param = getopt(table.concat(arg,' '))
 main(param)
 
 --[[
-	Copyright (c) 2013 Roland Yonaba
+	Copyright (c) 2012 Roland Yonaba
 
 	Permission is hereby granted, free of charge, to any person obtaining a
 	copy of this software and associated documentation files (the
