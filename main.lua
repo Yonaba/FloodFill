@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------
--- FloodFill algorithms : comparison and speed-tests on HOG grid maps --
+-- FloodFill algorithms : performance comparison HOG grid maps
 ------------------------------------------------------------------------
 
 -- Dependencies
@@ -13,15 +13,15 @@ local getopt = require 'utils.getopt'
 local floodFuncs = {
   {name = 'flood4',              func = require 'floodfill.flood4',             struct = nil},
   {name = 'flood8',              func = require 'floodfill.flood8',             struct = nil},
-  {name = 'flood4stack',         func = require 'floodfill.flood4stack',        struct = Stack:new()},
-  {name = 'flood4queue',         func = require 'floodfill.flood4stack',        struct = Queue:new()},
-  {name = 'flood8stack',         func = require 'floodfill.flood8stack',        struct = Stack:new()},
-  {name = 'flood8queue',         func = require 'floodfill.flood8stack',        struct = Queue:new()},
+  {name = 'flood4Stack',         func = require 'floodfill.flood4stack',        struct = Stack:new()},
+  {name = 'flood4Queue',         func = require 'floodfill.flood4stack',        struct = Queue:new()},
+  {name = 'flood8Stack',         func = require 'floodfill.flood8stack',        struct = Stack:new()},
+  {name = 'flood8Queue',         func = require 'floodfill.flood8stack',        struct = Queue:new()},
   {name = 'floodScanline',       func = require 'floodfill.floodscanline',      struct = nil},
-  {name = 'floodStackScanline',  func = require 'floodfill.floodstackscanline', struct = Stack:new()},
-  {name = 'floodQueueScanline',  func = require 'floodfill.floodstackscanline', struct = Queue:new()},
-  {name = 'floodStackEast2West', func = require 'floodfill.floodeast2west',     struct = Stack:new()},
-  {name = 'floodQueueEast2West', func = require 'floodfill.floodeast2west',     struct = Queue:new()},
+  {name = 'floodScanlineStack',  func = require 'floodfill.floodstackscanline', struct = Stack:new()},
+  {name = 'floodScanlineQueue',  func = require 'floodfill.floodstackscanline', struct = Queue:new()},
+  {name = 'floodWestEastStack',  func = require 'floodfill.floodwesteast',     struct = Stack:new()},
+  {name = 'floodWestEastQueue',  func = require 'floodfill.floodwesteast',     struct = Queue:new()},
 }
 
 local maps = {}
@@ -30,9 +30,10 @@ for f in lfs.dir(lfs.currentdir() ..'\\maps') do
 	if f~='.' and f~='..' then maps[#maps+1] = ('maps/%s'):format(f) end
 end
 
--- Headers for pretty-printing of results
+-- Headers for results pretty-printing
 local TEST_HEADER = ('Map: %s: Grid size: %04dx%04d - (%02d runs)\n')
-local TEST_RSLT   = ('%19s: %07.2f ms - stDev: %07.2f ms')
+local TEST_RSLT   = ('%19s: %10.2f ms - stDev: %10.2f ms')
+local TEST_ERR    = ('%19s: %36s')
 
 -- Filters entries both in source and some
 local function only(source, some)
@@ -84,7 +85,8 @@ end
 -- Evaluates the amount of time to perform f(...), uses os.clock
 local function benchmark(f,...)
 	local init_time = os.clock()
-	f(...)
+	local err = f(...)
+	if err then return (os.clock()-init_time)*1000, err end
 	return (os.clock()-init_time)*1000
 end
 
@@ -104,9 +106,13 @@ local function stdDev(t, m)
 end
 
 -- Performs floodfill on an entire grid
+-- Sandboxed, because of possible stack overflows
 local function floodGrid(f, grid, stack)
 	for y = 1,grid._height do
-		for x = 1,grid._width do f(x,y,grid, stack) end
+		for x = 1,grid._width do
+			local ok, err = pcall(f,x,y,grid, stack)
+			if not ok then return err end
+		end
 	end
 end
 
@@ -126,31 +132,36 @@ local function main(args)
 
 	-- Makes a grid
 	local maps = args.m == 'all' and maps or {format2MapName(args.m)}
-
 	for i,mapName in ipairs(maps) do
 		local map = parse(mapName)
-		local grid = Grid:new(map)
 
 		-- Run tests
-		print(TEST_HEADER:format(mapName, grid._width, grid._height, n_times))
+		print(TEST_HEADER:format(mapName, #map[1], #map, n_times))
 
 		for _,f in ipairs(flfuncs) do
 			local times = {}
 
+			local hasErr -- Shortcut for loop in case a flood fails because of overflow
 			for i = 1, n_times do
-				local cgrid = grid:clone()
+				local cgrid = Grid:new(map)
 				collectgarbage()
-				local time = benchmark(floodGrid, f.func, cgrid, f.struct)
+				local time, err = benchmark(floodGrid, f.func, cgrid, f.struct)
+				hasErr = err
+				if hasErr then break end
 				times[i] = time
-				assert(cgrid:isFlooded(), ('FloodFill failed on run %d (with %s)'):format(i, f.name))
+				assert(cgrid:isFlooded() or err, ('FloodFill failed on run %d (with %s)'):format(i, f.name))
 			end
-
-			local m = mean(times)
-			local sDev = stdDev(times, m)
-			print(TEST_RSLT:format(f.name, m, sDev))
+			
+			if hasErr then
+				print(TEST_ERR:format(f.name, 'failed: stack overflow'))
+			else
+				local m = mean(times)
+				local sDev = stdDev(times, m)	
+				print(TEST_RSLT:format(f.name, m, sDev))
+			end
 		end
 	end
-	
+
 end
 
 -- GetOpt from cmd-line and run
