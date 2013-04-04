@@ -1,9 +1,14 @@
+------------------------------------------------------------------------
+-- GetOpt, from command line parameters (very ugly, yet working)
+------------------------------------------------------------------------
 
+-- Does the given file exists ?
 local fExists = function(file)
 	local f = io.open(file)
 	return (f~=nil)
 end
 
+-- Collects and returns an array made of keys from a given table
 local keys = function(t)
 	local k = {}
 	local has = false
@@ -14,6 +19,7 @@ local keys = function(t)
 	return has and k or false
 end
 
+-- Does each file in a given pattern set exist ?
 local fSetExists = function(v)
 	for alg in v:gmatch('%.*(%w+)%.*') do
 		if not fExists(('floodfill/%s.lua'):format(alg):gsub('queue.lua$', 'stack.lua')) then
@@ -23,6 +29,7 @@ local fSetExists = function(v)
 	return true
 end
 
+-- Extends dest with source
 local extend = function(dest, source)
 	for k,v in pairs(source) do
 		if not dest[k] then dest[k] = v.value end
@@ -30,8 +37,9 @@ local extend = function(dest, source)
 	return dest
 end
 
+-- Hardcode valid opts, default values and asserts
 local defArgs = {
-	['n'] = {value = 10, assert = function(v)
+	['n'] = {value = 1, assert = function(v)
 		local v = tonumber(v)
 		return v and v>0
 	end},
@@ -47,6 +55,7 @@ local defArgs = {
 	end}
 }
 
+-- Main getOpt, to be returned upon requiring this actual module
 local function getOpt(str)
 	str = str or ''
 	local args = {}
