@@ -1,3 +1,6 @@
+-- 4-way stack-based recursive floodfill
+-- See http://en.wikipedia.org/wiki/Flood_fill#Stack-based_recursive_implementation_.28Four-way.29
+
 local function flood4(x, y, grid)
 	if not grid:has(x,y) then return end
 	local actualValue = grid:get(x,y)

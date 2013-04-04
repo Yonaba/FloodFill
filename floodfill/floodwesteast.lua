@@ -1,3 +1,8 @@
+-- Alternative floodfill implementation, looping west to east
+-- Uses a self made stack that can either be a LIFO queue (depth-first search)
+-- or a simple queue (breadth-first search)
+-- See http://en.wikipedia.org/wiki/Flood_fill#Alternative_implementations
+
 local function floodeast2west(x,y, grid, stack)
 	stack:clear()
 	local v = grid:get(x,y)

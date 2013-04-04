@@ -1,3 +1,6 @@
+-- Scanline floodfill, stack-based recursive
+-- See http://en.wikipedia.org/wiki/Flood_fill#Scanline_fill
+
 local function floodScanline(x,y,grid)
 	local v = grid:get(x,y)
 	if v and v~=0 then return end

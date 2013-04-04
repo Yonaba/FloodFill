@@ -1,9 +1,13 @@
+-- Scanline floodfill, uses a self made stack that can either be a LIFO queue (depth-first search)
+-- or a simple queue (breadth-first search)
+-- See http://en.wikipedia.org/wiki/Flood_fill#Scanline_fill
+
 local function floodStackScanline(x,y,grid,stack)
 	stack:clear()
 	local y1
 	local spanLeft, spanRight
 
-	if grid:has(x,y) and grid._map[y][x]==0 then
+	if grid:has(x,y) and grid._map[y][x].v==0 then
 		stack:push(grid._map[y][x])
 	end
 	while not stack:isEmpty() do
