@@ -1,4 +1,4 @@
--- HOG Map and Scenarios (version 1.0) files parser
+-- HOG Mapfile (version 1.0) parser
 -- See http://movingai.com/benchmarks/formats.html
 
 local tonumber, assert, io = tonumber, assert, io
@@ -51,7 +51,7 @@ local function parseMap(mapFile)
       local row = map[#map]
 	    local col_count = 1
         for char in line:gmatch('.') do
-          row[col_count] = {x = col_count, y = row_count, v = char:match('[.G]') and 0 or 1}
+          row[col_count] = char:match('[.G]') and 0 or 1
 					col_count = col_count+1
         end
     end
