@@ -6,7 +6,12 @@ grid.__index = grid
 function grid:new(map)
 	local g = setmetatable({},grid)
 	g._width, g._height = #map[1], #map
-	g._map = map
+	g._map = {}
+	for y = 1,#map do g._map[y] = {}
+		for x=1,#map[y] do
+			g._map[y][x] = {x = x, y = y, v = map[y][x]}
+		end
+	end
 	return g
 end
 
@@ -39,8 +44,5 @@ function grid:reset()
 	return self
 end
 
-function grid:clone()
-	return self:new(self._map)
-end
 
 return grid
