@@ -18,39 +18,43 @@ You can also download the repository as a [.zip](https://github.com/Yonaba/Flood
 
 ##Requirements:
 The following program should be run from command line.
-It uses LuaFileSystem, so make sure to have this dependency installed and working properly on your computer.
-Find instructions [here](http://keplerproject.github.com/luafilesystem/).
+It uses __LuaFileSystem__, so make sure to have this dependency installed and working properly on your computer.
+Find relevant instructions [here](http://keplerproject.github.com/luafilesystem/).
 
 ##Usage
 
 ````
-lua main.lua -m = mapName -n = i -i = <...> -u = <...>
+lua main.lua -m = <mapName> -n = <i> -i = <...> -u = <...>
 ```
 
-* -m = <mapName> : where <tt>mapName</tt> is the exact name of a [mapFile](http://github.com/Yonaba/FloodFill/blob/master/maps/). The extension '.map' can be left. Defaults to string `'all'`, meaning the full set of maps.
-* -n = <i> : where <tt>i</tt> is the number of repetitions of floofill with for the same floodfill with the same grid map. The time returned will be the mean time plus standard deviation. Defaults to `1`.
-* -i = <...> : specifies the floddfill algorithms to be ignored. To pass a set, separate their names with a dot (.) character.
-* -u = <...> : same as the previous, but -u flag specifies the algorithms to be used only.
+* `-m = mapName` : where <tt>mapName</tt> is the exact name of a [mapFile](http://github.com/Yonaba/FloodFill/blob/master/maps/). The extension '.map' can be left. Defaults to string `'all'`, meaning the full set of maps.
+* `-n = i` : where <tt>i</tt> is the number of repetitions of floofill with for the same floodfill with the same grid map. The time returned will be the mean time plus standard deviation. Defaults to `1`.
+* `-i = ...` : specifies the floddfill algorithms to be ignored. To pass a set, separate their names with a dot (.) character.
+* `-u = ...` : same as the previous, but `-u` flag specifies the algorithms to be used only.
 
+A simpleexample:
 ````
 -- Runs flood4 twenty times on ht_store.map
 lua main.lua -n=20 -m=ht_store -u=flood4
+````
 
+Another example:
+````
 -- Runs all algorithms but flood4 and flood8, each one 15 times on lt_shop.map
 lua main.lua -n=15 -m=lt_shop -i=flood4.flood8
 ```
 
 The full list of algorithms to be passed to `-u` and `-i` flags are:
 
-* flood4 (the recursive 4-way variant, see [flood4.lua](http///github.com/Yonaba/FloodFill/blob/master/floodfill/flood4.lua)
-* flood8 (the recursive 8-way variant, see [flood8.lua](http///github.com/Yonaba/FloodFill/blob/master/floodfill/flood8.lua)
-* flood4Stack (the stack based 4-way variant, see [flood4stack.lua](http///github.com/Yonaba/FloodFill/blob/master/floodfill/flood4stack.lua)
-* flood4Queue (the queue based 4-way variant, see [flood4stack.lua](http///github.com/Yonaba/FloodFill/blob/master/floodfill/flood4stack.lua)
-* floodScanline (scanline floodfill, see [floodscanline.lua](http///github.com/Yonaba/FloodFill/blob/master/floodfill/floodscanline.lua)
-* floodScanlineStack (stack-based scanline floodfill, see [floodstackscanline.lua](http///github.com/Yonaba/FloodFill/blob/master/floodfill/floodstackscanline.lua)
-* floodScanlineQueue (queue-based scanline floodfill, see [floodstackscanline.lua](http///github.com/Yonaba/FloodFill/blob/master/floodfill/floodstackscanline.lua)
-* floodWestEastStack (stack-based west and east looping floodfill, see [floodwesteast.lua](http///github.com/Yonaba/FloodFill/blob/master/floodfill/floodwesteast.lua)
-* floodWestEastQueue (queue-based west and east looping floodfill, see [floodwesteast.lua](http///github.com/Yonaba/FloodFill/blob/master/floodfill/floodwesteast.lua)
+* __flood4__ (the recursive 4-way variant, see [flood4.lua](http///github.com/Yonaba/FloodFill/blob/master/floodfill/flood4.lua))
+* __flood8__ (the recursive 8-way variant, see [flood8.lua](http///github.com/Yonaba/FloodFill/blob/master/floodfill/flood8.lua))
+* __flood4Stack__ (the stack based 4-way variant, see [flood4stack.lua](http///github.com/Yonaba/FloodFill/blob/master/floodfill/flood4stack.lua))
+* __flood4Queue__ (the queue based 4-way variant, see [flood4stack.lua](http///github.com/Yonaba/FloodFill/blob/master/floodfill/flood4stack.lua))
+* __floodScanline__ (scanline floodfill, see [floodscanline.lua](http///github.com/Yonaba/FloodFill/blob/master/floodfill/floodscanline.lua))
+* __floodScanlineStack__ (stack-based scanline floodfill, see [floodstackscanline.lua](http///github.com/Yonaba/FloodFill/blob/master/floodfill/floodstackscanline.lua))
+* __floodScanlineQueue__ (queue-based scanline floodfill, see [floodstackscanline.lua](http///github.com/Yonaba/FloodFill/blob/master/floodfill/floodstackscanline.lua))
+* __floodWestEastStack__ (stack-based west and east looping floodfill, see [floodwesteast.lua](http///github.com/Yonaba/FloodFill/blob/master/floodfill/floodwesteast.lua))
+* __floodWestEastQueue__ (queue-based west and east looping floodfill, see [floodwesteast.lua](http///github.com/Yonaba/FloodFill/blob/master/floodfill/floodwesteast.lua))
 
 ##Maps
 Maps were taken from the [2012 Grid-Based Path Planning Competition](http://movingai.com/GPPC/).<br/>
