@@ -46,20 +46,20 @@ lua main.lua -n=15 -m=lt_shop -i=flood4.flood8
 
 The full list of algorithms to be passed to `-u` and `-i` flags are:
 
-* __flood4__ (the recursive 4-way variant, see [flood4.lua](http///github.com/Yonaba/FloodFill/blob/master/floodfill/flood4.lua))
-* __flood8__ (the recursive 8-way variant, see [flood8.lua](http///github.com/Yonaba/FloodFill/blob/master/floodfill/flood8.lua))
-* __flood4Stack__ (the stack based 4-way variant, see [flood4stack.lua](http///github.com/Yonaba/FloodFill/blob/master/floodfill/flood4stack.lua))
-* __flood4Queue__ (the queue based 4-way variant, see [flood4stack.lua](http///github.com/Yonaba/FloodFill/blob/master/floodfill/flood4stack.lua))
-* __floodScanline__ (scanline floodfill, see [floodscanline.lua](http///github.com/Yonaba/FloodFill/blob/master/floodfill/floodscanline.lua))
-* __floodScanlineStack__ (stack-based scanline floodfill, see [floodstackscanline.lua](http///github.com/Yonaba/FloodFill/blob/master/floodfill/floodstackscanline.lua))
-* __floodScanlineQueue__ (queue-based scanline floodfill, see [floodstackscanline.lua](http///github.com/Yonaba/FloodFill/blob/master/floodfill/floodstackscanline.lua))
-* __floodWestEastStack__ (stack-based west and east looping floodfill, see [floodwesteast.lua](http///github.com/Yonaba/FloodFill/blob/master/floodfill/floodwesteast.lua))
-* __floodWestEastQueue__ (queue-based west and east looping floodfill, see [floodwesteast.lua](http///github.com/Yonaba/FloodFill/blob/master/floodfill/floodwesteast.lua))
+* __flood4__ (the recursive 4-way variant, see [flood4.lua](http://github.com/Yonaba/FloodFill/blob/master/floodfill/flood4.lua))
+* __flood8__ (the recursive 8-way variant, see [flood8.lua](http://github.com/Yonaba/FloodFill/blob/master/floodfill/flood8.lua))
+* __flood4Stack__ (the stack based 4-way variant, see [flood4stack.lua](http://github.com/Yonaba/FloodFill/blob/master/floodfill/flood4stack.lua))
+* __flood4Queue__ (the queue based 4-way variant, see [flood4stack.lua](http://github.com/Yonaba/FloodFill/blob/master/floodfill/flood4stack.lua))
+* __floodScanline__ (scanline floodfill, see [floodscanline.lua](http://github.com/Yonaba/FloodFill/blob/master/floodfill/floodscanline.lua))
+* __floodScanlineStack__ (stack-based scanline floodfill, see [floodstackscanline.lua](http://github.com/Yonaba/FloodFill/blob/master/floodfill/floodstackscanline.lua))
+* __floodScanlineQueue__ (queue-based scanline floodfill, see [floodstackscanline.lua](http://github.com/Yonaba/FloodFill/blob/master/floodfill/floodstackscanline.lua))
+* __floodWestEastStack__ (stack-based west and east looping floodfill, see [floodwesteast.lua](http://github.com/Yonaba/FloodFill/blob/master/floodfill/floodwesteast.lua))
+* __floodWestEastQueue__ (queue-based west and east looping floodfill, see [floodwesteast.lua](http://github.com/Yonaba/FloodFill/blob/master/floodfill/floodwesteast.lua))
 
 ##Maps
 Maps were taken from the [2012 Grid-Based Path Planning Competition](http://movingai.com/GPPC/).<br/>
 Map files format and description are given [here](http://www.movingai.com/benchmarks/formats.html).<br/>
-The mapfile parser source can be found here: [parser.lua](http://github.com/Yonaba/FloodFill/blob/master/utils.parser.lua).
+The mapfile parser source can be found here: [parser.lua](http://github.com/Yonaba/FloodFill/blob/master/utils/parser.lua).
 
 ##License##
 This work is under [MIT-LICENSE](http://www.opensource.org/licenses/mit-license.php)<br/>
