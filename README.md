@@ -24,13 +24,14 @@ Find relevant instructions [here](http://keplerproject.github.com/luafilesystem/
 ##Usage
 
 ````
-lua main.lua -m = <mapName> -n = <i> -i = <...> -u = <...>
+lua main.lua -m = <mapName> -n = <i> -i = <...> -u = <...> -o = <logFile>
 ```
 
 * `-m = mapName` : where <tt>mapName</tt> is the exact name of a [mapFile](http://github.com/Yonaba/FloodFill/blob/master/maps/). The extension '.map' can be left. Defaults to string `'all'`, meaning the full set of maps.
 * `-n = i` : where <tt>i</tt> is the number of repetitions of floofill with for the same floodfill with the same grid map. The time returned will be the mean time plus standard deviation. Defaults to `1`.
 * `-i = ...` : specifies the floddfill algorithms to be ignored. To pass a set, separate their names with a dot (.) character.
 * `-u = ...` : same as the previous, but `-u` flag specifies the algorithms to be used only.
+* `-o = logFile` : where <tt>logFile</tt> is the name of a logging file which will be exported near `main.lua`.
 
 A simpleexample:
 ````
