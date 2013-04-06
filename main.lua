@@ -33,7 +33,7 @@ for f in lfs.dir(lfs.currentdir() ..'\\maps') do
 end
 
 -- Headers for results pretty-printing
-local TEST_HEADER = ('Map: %s: Grid size: %04dx%04d - (%02d run%s)\n')
+local TEST_HEADER = ('\n\nMap: %s: Grid size: %04dx%04d - (%02d run%s)\n')
 local TEST_RSLT   = ('%19s: %10.2f ms - stDev: %10.2f ms')
 local TEST_ERR    = ('%19s: %36s')
 
