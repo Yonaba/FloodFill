@@ -9,6 +9,7 @@ local Grid = require 'struct.grid'
 
 local parse = require 'utils.parser'
 local getopt = require 'utils.getopt'
+local log = require 'utils.log'
 
 local floodFuncs = {
   {name = 'flood4',              func = require 'floodfill.flood4',             struct = nil},
@@ -24,6 +25,7 @@ local floodFuncs = {
   {name = 'floodWestEastQueue',  func = require 'floodfill.floodwesteast',     struct = Queue:new()},
 }
 
+-- Listing all maps
 local maps = {}
 local lfs = require('lfs')
 for f in lfs.dir(lfs.currentdir() ..'\\maps') do
@@ -31,9 +33,16 @@ for f in lfs.dir(lfs.currentdir() ..'\\maps') do
 end
 
 -- Headers for results pretty-printing
-local TEST_HEADER = ('Map: %s: Grid size: %04dx%04d - (%02d runs)\n')
+local TEST_HEADER = ('Map: %s: Grid size: %04dx%04d - (%02d run%s)\n')
 local TEST_RSLT   = ('%19s: %10.2f ms - stDev: %10.2f ms')
 local TEST_ERR    = ('%19s: %36s')
+
+-- Redefines print function to export to logging
+local oldprint = print
+local print = function(...)
+  oldprint(...)
+  log:add(...)
+end
 
 -- Filters entries both in source and some
 local function only(source, some)
@@ -65,7 +74,7 @@ end
 -- Appends .map if needed on a mapfile name
 local format2MapName = function(mapFile)
 	local appendExt = mapFile:match('%.map$') and mapFile or mapFile .. '.map'
-	return mapFile:match('^maps/.+%.map$') and mapFile or 'maps/'..mapFile
+	return appendExt:match('^maps/.+%.map$') and appendExt or 'maps/'..appendExt
 end
 
 -- Collect keys as an array from a dict-like table
@@ -118,10 +127,11 @@ end
 
 -- Main function, run tests
 local function main(args)
-	local n_times = args.n
+	local n_times = tonumber(args.n)
 	local ignore = args.i~='' and toTable(args.i)
 	local use = args.u~= '' and toTable(args.u)
-
+  log:setName(args.o)
+	
 	-- Flood functions to be used
 	local flfuncs
 	if use then flfuncs = only(floodFuncs, use)
@@ -136,7 +146,7 @@ local function main(args)
 		local map = parse(mapName)
 
 		-- Run tests
-		print(TEST_HEADER:format(mapName, #map[1], #map, n_times))
+		print(TEST_HEADER:format(mapName, #map[1], #map, n_times, n_times>1 and 's' or ''))
 
 		for _,f in ipairs(flfuncs) do
 			local times = {}
@@ -161,7 +171,9 @@ local function main(args)
 			end
 		end
 	end
-
+	
+	log:export()
+	log:clear()
 end
 
 -- GetOpt from cmd-line and run
