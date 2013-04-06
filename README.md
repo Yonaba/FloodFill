@@ -33,7 +33,7 @@ lua main.lua -m = <mapName> -n = <i> -i = <...> -u = <...> -o = <logFile>
 * `-u = ...` : same as the previous, but `-u` flag specifies the algorithms to be used only.
 * `-o = logFile` : where <tt>logFile</tt> is the name of a logging file which will be exported near `main.lua`.
 
-A simpleexample:
+A simple example:
 ````
 -- Runs flood4 twenty times on ht_store.map
 lua main.lua -n=20 -m=ht_store -u=flood4
@@ -45,7 +45,7 @@ Another example:
 lua main.lua -n=15 -m=lt_shop -i=flood4.flood8
 ```
 
-The full list of algorithms to be passed to `-u` and `-i` flags are:
+The full list of algorithms that can be passed to `-u` and `-i` flags are:
 
 * __flood4__ (the recursive 4-way variant, see [flood4.lua](http://github.com/Yonaba/FloodFill/blob/master/floodfill/flood4.lua))
 * __flood8__ (the recursive 8-way variant, see [flood8.lua](http://github.com/Yonaba/FloodFill/blob/master/floodfill/flood8.lua))
