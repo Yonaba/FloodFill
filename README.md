@@ -31,7 +31,7 @@ lua main.lua -m = <mapName> -n = <i> -i = <...> -u = <...> -o = <logFile>
 * `-n = i` : where <tt>i</tt> is the number of repetitions of floofill with for the same floodfill with the same grid map. The time returned will be the mean time plus standard deviation. Defaults to `1`.
 * `-i = ...` : specifies the floddfill algorithms to be ignored. To pass a set, separate their names with a dot (.) character.
 * `-u = ...` : same as the previous, but `-u` flag specifies the algorithms to be used only.
-* `-o = logFile` : where <tt>logFile</tt> is the name of a logging file which will be exported near `main.lua`.
+* `-o = logFile` : where <tt>logFile</tt> is the name of a logging file which will be exported near `main.lua`. Log file name defaults to `log.log` when not given.
 
 A simple example:
 ````
