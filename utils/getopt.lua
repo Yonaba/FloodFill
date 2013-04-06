@@ -52,6 +52,9 @@ local defArgs = {
 	end},
 	['u'] = {value = '', assert = function(v)
 		return fSetExists(v)
+	end},
+	['o'] = {value = 'log.log', assert = function(v)
+		 return not v:find('%.%w+$') and v .. '.log' or v		
 	end}
 }
 
