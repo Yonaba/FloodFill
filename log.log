@@ -1,0 +1,1980 @@
+
+
+Map: maps/AcrosstheCape.map: Grid size: 0768x0768 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:    3390.00 ms - stDev:       0.00 ms
+        flood4Queue:    6329.00 ms - stDev:       0.00 ms
+        flood8Stack:    4078.00 ms - stDev:       0.00 ms
+        flood8Queue:    8516.00 ms - stDev:       0.00 ms
+      floodScanline:   17376.00 ms - stDev:       0.00 ms
+ floodScanlineStack:    1703.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:    1719.00 ms - stDev:       0.00 ms
+ floodWestEastStack:    2235.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:   10016.00 ms - stDev:       0.00 ms
+
+
+Map: maps/Aftershock.map: Grid size: 0512x0512 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:    1219.00 ms - stDev:       0.00 ms
+        flood4Queue:    2157.00 ms - stDev:       0.00 ms
+        flood8Stack:    1765.00 ms - stDev:       0.00 ms
+        flood8Queue:    3125.00 ms - stDev:       0.00 ms
+      floodScanline:    8844.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     813.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     782.00 ms - stDev:       0.00 ms
+ floodWestEastStack:    1015.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:    2828.00 ms - stDev:       0.00 ms
+
+
+Map: maps/Archipelago.map: Grid size: 0512x0512 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:    1094.00 ms - stDev:       0.00 ms
+        flood4Queue:    1563.00 ms - stDev:       0.00 ms
+        flood8Stack:    3844.00 ms - stDev:       0.00 ms
+        flood8Queue:    4766.00 ms - stDev:       0.00 ms
+      floodScanline:    9297.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     844.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     797.00 ms - stDev:       0.00 ms
+ floodWestEastStack:    1718.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:    2453.00 ms - stDev:       0.00 ms
+
+
+Map: maps/ArcticStation.map: Grid size: 0768x0768 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:    2953.00 ms - stDev:       0.00 ms
+        flood4Queue:    6047.00 ms - stDev:       0.00 ms
+        flood8Stack:    4266.00 ms - stDev:       0.00 ms
+        flood8Queue:   10267.00 ms - stDev:       0.00 ms
+      floodScanline:   37080.00 ms - stDev:       0.00 ms
+ floodScanlineStack:    1719.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:    1812.00 ms - stDev:       0.00 ms
+ floodWestEastStack:    2344.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:    8516.00 ms - stDev:       0.00 ms
+
+
+Map: maps/Aurora.map: Grid size: 1024x0768 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:    3766.00 ms - stDev:       0.00 ms
+        flood4Queue:    8282.00 ms - stDev:       0.00 ms
+        flood8Stack:    5062.00 ms - stDev:       0.00 ms
+        flood8Queue:   12204.00 ms - stDev:       0.00 ms
+      floodScanline:   40658.00 ms - stDev:       0.00 ms
+ floodScanlineStack:    2891.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:    2234.00 ms - stDev:       0.00 ms
+ floodWestEastStack:    2968.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:   11469.00 ms - stDev:       0.00 ms
+
+
+Map: maps/Backwoods.map: Grid size: 0768x0512 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:    1578.00 ms - stDev:       0.00 ms
+        flood4Queue:    2906.00 ms - stDev:       0.00 ms
+        flood8Stack:    2203.00 ms - stDev:       0.00 ms
+        flood8Queue:    4079.00 ms - stDev:       0.00 ms
+      floodScanline:    8001.00 ms - stDev:       0.00 ms
+ floodScanlineStack:    1031.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:    1781.00 ms - stDev:       0.00 ms
+ floodWestEastStack:    2782.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:    5031.00 ms - stDev:       0.00 ms
+
+
+Map: maps/BigGameHunters.map: Grid size: 0512x0512 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:    1359.00 ms - stDev:       0.00 ms
+        flood4Queue:    2469.00 ms - stDev:       0.00 ms
+        flood8Stack:    1844.00 ms - stDev:       0.00 ms
+        flood8Queue:    3828.00 ms - stDev:       0.00 ms
+      floodScanline:    4954.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     797.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:    1093.00 ms - stDev:       0.00 ms
+ floodWestEastStack:    2703.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:    4859.00 ms - stDev:       0.00 ms
+
+
+Map: maps/BlackLotus.map: Grid size: 0768x0768 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:    2969.00 ms - stDev:       0.00 ms
+        flood4Queue:    6985.00 ms - stDev:       0.00 ms
+        flood8Stack:    3797.00 ms - stDev:       0.00 ms
+        flood8Queue:    8501.00 ms - stDev:       0.00 ms
+      floodScanline:   27267.00 ms - stDev:       0.00 ms
+ floodScanlineStack:    1469.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:    1547.00 ms - stDev:       0.00 ms
+ floodWestEastStack:    1875.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:    7125.00 ms - stDev:       0.00 ms
+
+
+Map: maps/BlastFurnace.map: Grid size: 0768x0768 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:    2859.00 ms - stDev:       0.00 ms
+        flood4Queue:    6157.00 ms - stDev:       0.00 ms
+        flood8Stack:    4094.00 ms - stDev:       0.00 ms
+        flood8Queue:    8656.00 ms - stDev:       0.00 ms
+      floodScanline:   17314.00 ms - stDev:       0.00 ms
+ floodScanlineStack:    3281.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:    2016.00 ms - stDev:       0.00 ms
+ floodWestEastStack:    2469.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:    8157.00 ms - stDev:       0.00 ms
+
+
+Map: maps/BrokenSteppes.map: Grid size: 0768x0768 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:    6860.00 ms - stDev:       0.00 ms
+        flood4Queue:    9501.00 ms - stDev:       0.00 ms
+        flood8Stack:    8016.00 ms - stDev:       0.00 ms
+        flood8Queue:   18719.00 ms - stDev:       0.00 ms
+      floodScanline:   16735.00 ms - stDev:       0.00 ms
+ floodScanlineStack:    1828.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:    3204.00 ms - stDev:       0.00 ms
+ floodWestEastStack:    5297.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:   13162.00 ms - stDev:       0.00 ms
+
+
+Map: maps/Brushfire.map: Grid size: 0512x0512 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:     975.00 ms - stDev:       0.00 ms
+        flood4Queue:    1226.00 ms - stDev:       0.00 ms
+        flood8Stack:    1220.00 ms - stDev:       0.00 ms
+        flood8Queue:    1750.00 ms - stDev:       0.00 ms
+      floodScanline:    3951.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     612.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     616.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     741.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:    1377.00 ms - stDev:       0.00 ms
+
+
+Map: maps/ca_cave.map: Grid size: 0183x0277 - (01 run)
+
+             flood4:      71.00 ms - stDev:       0.00 ms
+             flood8:      92.00 ms - stDev:       0.00 ms
+        flood4Stack:     104.00 ms - stDev:       0.00 ms
+        flood4Queue:     107.00 ms - stDev:       0.00 ms
+        flood8Stack:     123.00 ms - stDev:       0.00 ms
+        flood8Queue:     127.00 ms - stDev:       0.00 ms
+      floodScanline:     274.00 ms - stDev:       0.00 ms
+ floodScanlineStack:      88.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:      87.00 ms - stDev:       0.00 ms
+ floodWestEastStack:      92.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:      99.00 ms - stDev:       0.00 ms
+
+
+Map: maps/ca_cavern1_haunted.map: Grid size: 0324x0597 - (01 run)
+
+             flood4:     239.00 ms - stDev:       0.00 ms
+             flood8:     294.00 ms - stDev:       0.00 ms
+        flood4Stack:     359.00 ms - stDev:       0.00 ms
+        flood4Queue:     369.00 ms - stDev:       0.00 ms
+        flood8Stack:     411.00 ms - stDev:       0.00 ms
+        flood8Queue:     421.00 ms - stDev:       0.00 ms
+      floodScanline:    2100.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     321.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     319.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     316.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     337.00 ms - stDev:       0.00 ms
+
+
+Map: maps/ca_caverns1.map: Grid size: 0324x0596 - (01 run)
+
+             flood4:     240.00 ms - stDev:       0.00 ms
+             flood8:     296.00 ms - stDev:       0.00 ms
+        flood4Stack:     360.00 ms - stDev:       0.00 ms
+        flood4Queue:     368.00 ms - stDev:       0.00 ms
+        flood8Stack:     413.00 ms - stDev:       0.00 ms
+        flood8Queue:     419.00 ms - stDev:       0.00 ms
+      floodScanline:    2081.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     319.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     320.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     316.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     338.00 ms - stDev:       0.00 ms
+
+
+Map: maps/ca_caverns1_mines.map: Grid size: 0324x0597 - (01 run)
+
+             flood4:     238.00 ms - stDev:       0.00 ms
+             flood8:     294.00 ms - stDev:       0.00 ms
+        flood4Stack:     359.00 ms - stDev:       0.00 ms
+        flood4Queue:     367.00 ms - stDev:       0.00 ms
+        flood8Stack:     410.00 ms - stDev:       0.00 ms
+        flood8Queue:     419.00 ms - stDev:       0.00 ms
+      floodScanline:    2091.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     320.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     318.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     316.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     335.00 ms - stDev:       0.00 ms
+
+
+Map: maps/ca_caverns2.map: Grid size: 0389x0467 - (01 run)
+
+             flood4:     213.00 ms - stDev:       0.00 ms
+             flood8:     253.00 ms - stDev:       0.00 ms
+        flood4Stack:     322.00 ms - stDev:       0.00 ms
+        flood4Queue:     328.00 ms - stDev:       0.00 ms
+        flood8Stack:     359.00 ms - stDev:       0.00 ms
+        flood8Queue:     366.00 ms - stDev:       0.00 ms
+      floodScanline:    1373.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     292.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     290.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     283.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     300.00 ms - stDev:       0.00 ms
+
+
+Map: maps/ca_caverns2prc.map: Grid size: 0389x0467 - (01 run)
+
+             flood4:     210.00 ms - stDev:       0.00 ms
+             flood8:     247.00 ms - stDev:       0.00 ms
+        flood4Stack:     317.00 ms - stDev:       0.00 ms
+        flood4Queue:     324.00 ms - stDev:       0.00 ms
+        flood8Stack:     355.00 ms - stDev:       0.00 ms
+        flood8Queue:     359.00 ms - stDev:       0.00 ms
+      floodScanline:    1190.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     289.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     290.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     279.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     299.00 ms - stDev:       0.00 ms
+
+
+Map: maps/dr_0_deeproads.map: Grid size: 0560x0733 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:     674.00 ms - stDev:       0.00 ms
+        flood4Stack:     812.00 ms - stDev:       0.00 ms
+        flood4Queue:     844.00 ms - stDev:       0.00 ms
+        flood8Stack:     969.00 ms - stDev:       0.00 ms
+        flood8Queue:     990.00 ms - stDev:       0.00 ms
+      floodScanline:    4008.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     690.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     687.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     701.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     819.00 ms - stDev:       0.00 ms
+
+
+Map: maps/dr_dungeon.map: Grid size: 0314x0261 - (01 run)
+
+             flood4:     134.00 ms - stDev:       0.00 ms
+             flood8:     186.00 ms - stDev:       0.00 ms
+        flood4Stack:     199.00 ms - stDev:       0.00 ms
+        flood4Queue:     215.00 ms - stDev:       0.00 ms
+        flood8Stack:     244.00 ms - stDev:       0.00 ms
+        flood8Queue:     269.00 ms - stDev:       0.00 ms
+      floodScanline:     630.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     156.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     155.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     169.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     230.00 ms - stDev:       0.00 ms
+
+
+Map: maps/dr_primevalentrance.map: Grid size: 0315x0221 - (01 run)
+
+             flood4:      88.00 ms - stDev:       0.00 ms
+             flood8:     110.00 ms - stDev:       0.00 ms
+        flood4Stack:     132.00 ms - stDev:       0.00 ms
+        flood4Queue:     134.00 ms - stDev:       0.00 ms
+        flood8Stack:     151.00 ms - stDev:       0.00 ms
+        flood8Queue:     152.00 ms - stDev:       0.00 ms
+      floodScanline:     258.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     119.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     118.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     116.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     130.00 ms - stDev:       0.00 ms
+
+
+Map: maps/dr_primevaltomb.map: Grid size: 0722x0657 - (01 run)
+
+             flood4:     501.00 ms - stDev:       0.00 ms
+             flood8:     557.00 ms - stDev:       0.00 ms
+        flood4Stack:     771.00 ms - stDev:       0.00 ms
+        flood4Queue:     776.00 ms - stDev:       0.00 ms
+        flood8Stack:     826.00 ms - stDev:       0.00 ms
+        flood8Queue:     831.00 ms - stDev:       0.00 ms
+      floodScanline:    2107.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     724.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     726.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     682.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     722.00 ms - stDev:       0.00 ms
+
+
+Map: maps/dr_slavers.map: Grid size: 0315x0260 - (01 run)
+
+             flood4:     135.00 ms - stDev:       0.00 ms
+             flood8:     185.00 ms - stDev:       0.00 ms
+        flood4Stack:     203.00 ms - stDev:       0.00 ms
+        flood4Queue:     203.00 ms - stDev:       0.00 ms
+        flood8Stack:     250.00 ms - stDev:       0.00 ms
+        flood8Queue:     281.00 ms - stDev:       0.00 ms
+      floodScanline:     609.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     156.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     156.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     172.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     234.00 ms - stDev:       0.00 ms
+
+
+Map: maps/ht_0_hightown.map: Grid size: 0514x0514 - (01 run)
+
+             flood4:     375.00 ms - stDev:       0.00 ms
+             flood8:     500.00 ms - stDev:       0.00 ms
+        flood4Stack:     562.00 ms - stDev:       0.00 ms
+        flood4Queue:     657.00 ms - stDev:       0.00 ms
+        flood8Stack:     703.00 ms - stDev:       0.00 ms
+        flood8Queue:     797.00 ms - stDev:       0.00 ms
+      floodScanline:    2517.00 ms - stDev:       0.00 ms
+ floodScanlineStack:    1191.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     849.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     694.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     809.00 ms - stDev:       0.00 ms
+
+
+Map: maps/ht_0_hightown_a2.map: Grid size: 0514x0514 - (01 run)
+
+             flood4:     422.00 ms - stDev:       0.00 ms
+             flood8:     505.00 ms - stDev:       0.00 ms
+        flood4Stack:     567.00 ms - stDev:       0.00 ms
+        flood4Queue:     657.00 ms - stDev:       0.00 ms
+        flood8Stack:     690.00 ms - stDev:       0.00 ms
+        flood8Queue:     797.00 ms - stDev:       0.00 ms
+      floodScanline:    2027.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     469.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     465.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     487.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     667.00 ms - stDev:       0.00 ms
+
+
+Map: maps/ht_0_hightown_a3.map: Grid size: 0514x0514 - (01 run)
+
+             flood4:     377.00 ms - stDev:       0.00 ms
+             flood8:     498.00 ms - stDev:       0.00 ms
+        flood4Stack:     569.00 ms - stDev:       0.00 ms
+        flood4Queue:     660.00 ms - stDev:       0.00 ms
+        flood8Stack:     694.00 ms - stDev:       0.00 ms
+        flood8Queue:     802.00 ms - stDev:       0.00 ms
+      floodScanline:    2013.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     469.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:    1209.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     919.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     960.00 ms - stDev:       0.00 ms
+
+
+Map: maps/ht_0_hightown_n.map: Grid size: 0514x0514 - (01 run)
+
+             flood4:     483.00 ms - stDev:       0.00 ms
+             flood8:     556.00 ms - stDev:       0.00 ms
+        flood4Stack:     592.00 ms - stDev:       0.00 ms
+        flood4Queue:     662.00 ms - stDev:       0.00 ms
+        flood8Stack:     689.00 ms - stDev:       0.00 ms
+        flood8Queue:     800.00 ms - stDev:       0.00 ms
+      floodScanline:    2031.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     470.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     466.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     486.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     673.00 ms - stDev:       0.00 ms
+
+
+Map: maps/ht_bartrand_n.map: Grid size: 0133x0270 - (01 run)
+
+             flood4:      62.00 ms - stDev:       0.00 ms
+             flood8:      89.00 ms - stDev:       0.00 ms
+        flood4Stack:      90.00 ms - stDev:       0.00 ms
+        flood4Queue:     102.00 ms - stDev:       0.00 ms
+        flood8Stack:     115.00 ms - stDev:       0.00 ms
+        flood8Queue:     127.00 ms - stDev:       0.00 ms
+      floodScanline:     402.00 ms - stDev:       0.00 ms
+ floodScanlineStack:      72.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:      71.00 ms - stDev:       0.00 ms
+ floodWestEastStack:      78.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:      96.00 ms - stDev:       0.00 ms
+
+
+Map: maps/ht_brothel_n.map: Grid size: 0133x0270 - (01 run)
+
+             flood4:      56.00 ms - stDev:       0.00 ms
+             flood8:      77.00 ms - stDev:       0.00 ms
+        flood4Stack:      82.00 ms - stDev:       0.00 ms
+        flood4Queue:      92.00 ms - stDev:       0.00 ms
+        flood8Stack:     102.00 ms - stDev:       0.00 ms
+        flood8Queue:     113.00 ms - stDev:       0.00 ms
+      floodScanline:     372.00 ms - stDev:       0.00 ms
+ floodScanlineStack:      68.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:      68.00 ms - stDev:       0.00 ms
+ floodWestEastStack:      73.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:      84.00 ms - stDev:       0.00 ms
+
+
+Map: maps/ht_chantry.map: Grid size: 0162x0141 - (01 run)
+
+             flood4:      46.00 ms - stDev:       0.00 ms
+             flood8:      69.00 ms - stDev:       0.00 ms
+        flood4Stack:      67.00 ms - stDev:       0.00 ms
+        flood4Queue:      75.00 ms - stDev:       0.00 ms
+        flood8Stack:      87.00 ms - stDev:       0.00 ms
+        flood8Queue:      97.00 ms - stDev:       0.00 ms
+      floodScanline:     192.00 ms - stDev:       0.00 ms
+ floodScanlineStack:      50.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:      50.00 ms - stDev:       0.00 ms
+ floodWestEastStack:      57.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:      72.00 ms - stDev:       0.00 ms
+
+
+Map: maps/ht_chantry_n.map: Grid size: 0162x0141 - (01 run)
+
+             flood4:      47.00 ms - stDev:       0.00 ms
+             flood8:      89.00 ms - stDev:       0.00 ms
+        flood4Stack:     171.00 ms - stDev:       0.00 ms
+        flood4Queue:     195.00 ms - stDev:       0.00 ms
+        flood8Stack:     223.00 ms - stDev:       0.00 ms
+        flood8Queue:     256.00 ms - stDev:       0.00 ms
+      floodScanline:     502.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     128.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     129.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     146.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     150.00 ms - stDev:       0.00 ms
+
+
+Map: maps/ht_keep.map: Grid size: 0281x0357 - (01 run)
+
+             flood4:     269.00 ms - stDev:       0.00 ms
+             flood8:     329.00 ms - stDev:       0.00 ms
+        flood4Stack:     349.00 ms - stDev:       0.00 ms
+        flood4Queue:     327.00 ms - stDev:       0.00 ms
+        flood8Stack:     340.00 ms - stDev:       0.00 ms
+        flood8Queue:     341.00 ms - stDev:       0.00 ms
+      floodScanline:     874.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     192.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     182.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     187.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     234.00 ms - stDev:       0.00 ms
+
+
+Map: maps/ht_keep_n.map: Grid size: 0281x0357 - (01 run)
+
+             flood4:     139.00 ms - stDev:       0.00 ms
+             flood8:     180.00 ms - stDev:       0.00 ms
+        flood4Stack:     208.00 ms - stDev:       0.00 ms
+        flood4Queue:     218.00 ms - stDev:       0.00 ms
+        flood8Stack:     253.00 ms - stDev:       0.00 ms
+        flood8Queue:     270.00 ms - stDev:       0.00 ms
+      floodScanline:     794.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     430.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     454.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     464.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     611.00 ms - stDev:       0.00 ms
+
+
+Map: maps/ht_mansion2.map: Grid size: 0358x0308 - (01 run)
+
+             flood4:     333.00 ms - stDev:       0.00 ms
+             flood8:     407.00 ms - stDev:       0.00 ms
+        flood4Stack:     413.00 ms - stDev:       0.00 ms
+        flood4Queue:     388.00 ms - stDev:       0.00 ms
+        flood8Stack:     402.00 ms - stDev:       0.00 ms
+        flood8Queue:     417.00 ms - stDev:       0.00 ms
+      floodScanline:    1132.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     213.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     207.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     206.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     243.00 ms - stDev:       0.00 ms
+
+
+Map: maps/ht_mansion2b.map: Grid size: 0358x0308 - (01 run)
+
+             flood4:     167.00 ms - stDev:       0.00 ms
+             flood8:     224.00 ms - stDev:       0.00 ms
+        flood4Stack:     247.00 ms - stDev:       0.00 ms
+        flood4Queue:     274.00 ms - stDev:       0.00 ms
+        flood8Stack:     296.00 ms - stDev:       0.00 ms
+        flood8Queue:     332.00 ms - stDev:       0.00 ms
+      floodScanline:     986.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     202.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     204.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     213.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     262.00 ms - stDev:       0.00 ms
+
+
+Map: maps/ht_mansion_n.map: Grid size: 0133x0270 - (01 run)
+
+             flood4:      65.00 ms - stDev:       0.00 ms
+             flood8:      91.00 ms - stDev:       0.00 ms
+        flood4Stack:      92.00 ms - stDev:       0.00 ms
+        flood4Queue:     103.00 ms - stDev:       0.00 ms
+        flood8Stack:     115.00 ms - stDev:       0.00 ms
+        flood8Queue:     129.00 ms - stDev:       0.00 ms
+      floodScanline:     416.00 ms - stDev:       0.00 ms
+ floodScanlineStack:      72.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:      72.00 ms - stDev:       0.00 ms
+ floodWestEastStack:      79.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:      96.00 ms - stDev:       0.00 ms
+
+
+Map: maps/ht_playershouse_n.map: Grid size: 0185x0068 - (01 run)
+
+             flood4:      21.00 ms - stDev:       0.00 ms
+             flood8:      31.00 ms - stDev:       0.00 ms
+        flood4Stack:      31.00 ms - stDev:       0.00 ms
+        flood4Queue:      33.00 ms - stDev:       0.00 ms
+        flood8Stack:      98.00 ms - stDev:       0.00 ms
+        flood8Queue:     108.00 ms - stDev:       0.00 ms
+      floodScanline:     131.00 ms - stDev:       0.00 ms
+ floodScanlineStack:      65.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:      64.00 ms - stDev:       0.00 ms
+ floodWestEastStack:      70.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:      80.00 ms - stDev:       0.00 ms
+
+
+Map: maps/ht_store.map: Grid size: 0037x0037 - (01 run)
+
+             flood4:       8.00 ms - stDev:       0.00 ms
+             flood8:      11.00 ms - stDev:       0.00 ms
+        flood4Stack:      10.00 ms - stDev:       0.00 ms
+        flood4Queue:      10.00 ms - stDev:       0.00 ms
+        flood8Stack:      13.00 ms - stDev:       0.00 ms
+        flood8Queue:      14.00 ms - stDev:       0.00 ms
+      floodScanline:      10.00 ms - stDev:       0.00 ms
+ floodScanlineStack:       8.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:       8.00 ms - stDev:       0.00 ms
+ floodWestEastStack:      10.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:      10.00 ms - stDev:       0.00 ms
+
+
+Map: maps/lt_0_lowtown.map: Grid size: 0514x0514 - (01 run)
+
+             flood4:     674.00 ms - stDev:       0.00 ms
+             flood8:     713.00 ms - stDev:       0.00 ms
+        flood4Stack:    1086.00 ms - stDev:       0.00 ms
+        flood4Queue:    1308.00 ms - stDev:       0.00 ms
+        flood8Stack:     967.00 ms - stDev:       0.00 ms
+        flood8Queue:     836.00 ms - stDev:       0.00 ms
+      floodScanline:    1915.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     437.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     438.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     437.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     532.00 ms - stDev:       0.00 ms
+
+
+Map: maps/lt_0_lowtown_a2.map: Grid size: 0514x0514 - (01 run)
+
+             flood4:     328.00 ms - stDev:       0.00 ms
+             flood8:     406.00 ms - stDev:       0.00 ms
+        flood4Stack:     531.00 ms - stDev:       0.00 ms
+        flood4Queue:     547.00 ms - stDev:       0.00 ms
+        flood8Stack:     781.00 ms - stDev:       0.00 ms
+        flood8Queue:     718.00 ms - stDev:       0.00 ms
+      floodScanline:    1750.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     435.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     433.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     431.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     524.00 ms - stDev:       0.00 ms
+
+
+Map: maps/lt_0_lowtown_a2_n.map: Grid size: 0514x0514 - (01 run)
+
+             flood4:     327.00 ms - stDev:       0.00 ms
+             flood8:     402.00 ms - stDev:       0.00 ms
+        flood4Stack:     491.00 ms - stDev:       0.00 ms
+        flood4Queue:     533.00 ms - stDev:       0.00 ms
+        flood8Stack:     568.00 ms - stDev:       0.00 ms
+        flood8Queue:     617.00 ms - stDev:       0.00 ms
+      floodScanline:    1767.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     437.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     435.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     432.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     527.00 ms - stDev:       0.00 ms
+
+
+Map: maps/lt_0_lowtown_a2_n_c.map: Grid size: 0514x0514 - (01 run)
+
+             flood4:     346.00 ms - stDev:       0.00 ms
+             flood8:     439.00 ms - stDev:       0.00 ms
+        flood4Stack:     523.00 ms - stDev:       0.00 ms
+        flood4Queue:     570.00 ms - stDev:       0.00 ms
+        flood8Stack:     611.00 ms - stDev:       0.00 ms
+        flood8Queue:     678.00 ms - stDev:       0.00 ms
+      floodScanline:    1962.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     445.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     445.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     455.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     565.00 ms - stDev:       0.00 ms
+
+
+Map: maps/lt_0_lowtown_a3_n_c.map: Grid size: 0514x0514 - (01 run)
+
+             flood4:     346.00 ms - stDev:       0.00 ms
+             flood8:     439.00 ms - stDev:       0.00 ms
+        flood4Stack:     524.00 ms - stDev:       0.00 ms
+        flood4Queue:     568.00 ms - stDev:       0.00 ms
+        flood8Stack:     611.00 ms - stDev:       0.00 ms
+        flood8Queue:     678.00 ms - stDev:       0.00 ms
+      floodScanline:    1997.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     448.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     448.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     455.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     564.00 ms - stDev:       0.00 ms
+
+
+Map: maps/lt_0_lowtown_docks.map: Grid size: 0514x0386 - (01 run)
+
+             flood4:     252.00 ms - stDev:       0.00 ms
+             flood8:     316.00 ms - stDev:       0.00 ms
+        flood4Stack:     382.00 ms - stDev:       0.00 ms
+        flood4Queue:     414.00 ms - stDev:       0.00 ms
+        flood8Stack:     445.00 ms - stDev:       0.00 ms
+        flood8Queue:     486.00 ms - stDev:       0.00 ms
+      floodScanline:    1110.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     332.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     329.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     331.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     400.00 ms - stDev:       0.00 ms
+
+
+Map: maps/lt_0_lowtown_docks_a3.map: Grid size: 0514x0386 - (01 run)
+
+             flood4:     243.00 ms - stDev:       0.00 ms
+             flood8:     300.00 ms - stDev:       0.00 ms
+        flood4Stack:     371.00 ms - stDev:       0.00 ms
+        flood4Queue:     388.00 ms - stDev:       0.00 ms
+        flood8Stack:     420.00 ms - stDev:       0.00 ms
+        flood8Queue:     451.00 ms - stDev:       0.00 ms
+      floodScanline:     949.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     326.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     326.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     322.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     375.00 ms - stDev:       0.00 ms
+
+
+Map: maps/lt_0_lowtown_docks_a3_n.map: Grid size: 0514x0386 - (01 run)
+
+             flood4:     244.00 ms - stDev:       0.00 ms
+             flood8:     300.00 ms - stDev:       0.00 ms
+        flood4Stack:     373.00 ms - stDev:       0.00 ms
+        flood4Queue:    1018.00 ms - stDev:       0.00 ms
+        flood8Stack:     843.00 ms - stDev:       0.00 ms
+        flood8Queue:     734.00 ms - stDev:       0.00 ms
+      floodScanline:    1247.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     368.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     347.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     331.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     373.00 ms - stDev:       0.00 ms
+
+
+Map: maps/lt_0_lowtown_docks_n.map: Grid size: 0514x0386 - (01 run)
+
+             flood4:     251.00 ms - stDev:       0.00 ms
+             flood8:     315.00 ms - stDev:       0.00 ms
+        flood4Stack:     379.00 ms - stDev:       0.00 ms
+        flood4Queue:     411.00 ms - stDev:       0.00 ms
+        flood8Stack:     451.00 ms - stDev:       0.00 ms
+        flood8Queue:     489.00 ms - stDev:       0.00 ms
+      floodScanline:    1106.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     331.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     329.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     332.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     402.00 ms - stDev:       0.00 ms
+
+
+Map: maps/lt_0_lowtown_n.map: Grid size: 0514x0514 - (01 run)
+
+             flood4:     327.00 ms - stDev:       0.00 ms
+             flood8:     401.00 ms - stDev:       0.00 ms
+        flood4Stack:     496.00 ms - stDev:       0.00 ms
+        flood4Queue:     535.00 ms - stDev:       0.00 ms
+        flood8Stack:     565.00 ms - stDev:       0.00 ms
+        flood8Queue:     622.00 ms - stDev:       0.00 ms
+      floodScanline:    2168.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     741.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     604.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     516.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     575.00 ms - stDev:       0.00 ms
+
+
+Map: maps/lt_backalley_g.map: Grid size: 0130x0130 - (01 run)
+
+             flood4:      41.00 ms - stDev:       0.00 ms
+             flood8:      63.00 ms - stDev:       0.00 ms
+        flood4Stack:      58.00 ms - stDev:       0.00 ms
+        flood4Queue:      66.00 ms - stDev:       0.00 ms
+        flood8Stack:      77.00 ms - stDev:       0.00 ms
+        flood8Queue:      85.00 ms - stDev:       0.00 ms
+      floodScanline:     132.00 ms - stDev:       0.00 ms
+ floodScanlineStack:      40.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:      40.00 ms - stDev:       0.00 ms
+ floodWestEastStack:      48.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:      62.00 ms - stDev:       0.00 ms
+
+
+Map: maps/lt_backalley_n.map: Grid size: 0130x0130 - (01 run)
+
+             flood4:      39.00 ms - stDev:       0.00 ms
+             flood8:      59.00 ms - stDev:       0.00 ms
+        flood4Stack:      56.00 ms - stDev:       0.00 ms
+        flood4Queue:      62.00 ms - stDev:       0.00 ms
+        flood8Stack:      75.00 ms - stDev:       0.00 ms
+        flood8Queue:      84.00 ms - stDev:       0.00 ms
+      floodScanline:     131.00 ms - stDev:       0.00 ms
+ floodScanlineStack:      40.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:      39.00 ms - stDev:       0.00 ms
+ floodWestEastStack:      47.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:      62.00 ms - stDev:       0.00 ms
+
+
+Map: maps/lt_darktown.map: Grid size: 0251x0292 - (01 run)
+
+             flood4:     106.00 ms - stDev:       0.00 ms
+             flood8:     140.00 ms - stDev:       0.00 ms
+        flood4Stack:     158.00 ms - stDev:       0.00 ms
+        flood4Queue:     167.00 ms - stDev:       0.00 ms
+        flood8Stack:     188.00 ms - stDev:       0.00 ms
+        flood8Queue:     199.00 ms - stDev:       0.00 ms
+      floodScanline:     547.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     131.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     130.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     136.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     154.00 ms - stDev:       0.00 ms
+
+
+Map: maps/lt_foundry_n.map: Grid size: 0109x0092 - (01 run)
+
+             flood4:      25.00 ms - stDev:       0.00 ms
+             flood8:      39.00 ms - stDev:       0.00 ms
+        flood4Stack:      35.00 ms - stDev:       0.00 ms
+        flood4Queue:      38.00 ms - stDev:       0.00 ms
+        flood8Stack:      48.00 ms - stDev:       0.00 ms
+        flood8Queue:      51.00 ms - stDev:       0.00 ms
+      floodScanline:      78.00 ms - stDev:       0.00 ms
+ floodScanlineStack:      25.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:      25.00 ms - stDev:       0.00 ms
+ floodWestEastStack:      30.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:      37.00 ms - stDev:       0.00 ms
+
+
+Map: maps/lt_gallowscourtyard.map: Grid size: 0514x0642 - (01 run)
+
+             flood4:     364.00 ms - stDev:       0.00 ms
+             flood8:     419.00 ms - stDev:       0.00 ms
+        flood4Stack:     560.00 ms - stDev:       0.00 ms
+        flood4Queue:    1442.00 ms - stDev:       0.00 ms
+        flood8Stack:    1028.00 ms - stDev:       0.00 ms
+        flood8Queue:     841.00 ms - stDev:       0.00 ms
+      floodScanline:    1531.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     510.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     509.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     485.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     551.00 ms - stDev:       0.00 ms
+
+
+Map: maps/lt_gallowscourtyard_n.map: Grid size: 0514x0642 - (01 run)
+
+             flood4:     333.00 ms - stDev:       0.00 ms
+             flood8:     363.00 ms - stDev:       0.00 ms
+        flood4Stack:     516.00 ms - stDev:       0.00 ms
+        flood4Queue:     529.00 ms - stDev:       0.00 ms
+        flood8Stack:     546.00 ms - stDev:       0.00 ms
+        flood8Queue:     557.00 ms - stDev:       0.00 ms
+      floodScanline:    1043.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     496.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     496.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     457.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     511.00 ms - stDev:       0.00 ms
+
+
+Map: maps/lt_gallowsprison_n.map: Grid size: 0116x0242 - (01 run)
+
+             flood4:      37.00 ms - stDev:       0.00 ms
+             flood8:      45.00 ms - stDev:       0.00 ms
+        flood4Stack:      54.00 ms - stDev:       0.00 ms
+        flood4Queue:      56.00 ms - stDev:       0.00 ms
+        flood8Stack:      62.00 ms - stDev:       0.00 ms
+        flood8Queue:      64.00 ms - stDev:       0.00 ms
+      floodScanline:      90.00 ms - stDev:       0.00 ms
+ floodScanlineStack:      46.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:      47.00 ms - stDev:       0.00 ms
+ floodWestEastStack:      48.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:      50.00 ms - stDev:       0.00 ms
+
+
+Map: maps/lt_gallowstemplar.map: Grid size: 0251x0180 - (01 run)
+
+             flood4:      75.00 ms - stDev:       0.00 ms
+             flood8:     105.00 ms - stDev:       0.00 ms
+        flood4Stack:     109.00 ms - stDev:       0.00 ms
+        flood4Queue:     122.00 ms - stDev:       0.00 ms
+        flood8Stack:     137.00 ms - stDev:       0.00 ms
+        flood8Queue:     153.00 ms - stDev:       0.00 ms
+      floodScanline:     279.00 ms - stDev:       0.00 ms
+ floodScanlineStack:      87.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:      87.00 ms - stDev:       0.00 ms
+ floodWestEastStack:      95.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     127.00 ms - stDev:       0.00 ms
+
+
+Map: maps/lt_gallowstemplar_f.map: Grid size: 0251x0180 - (01 run)
+
+             flood4:      76.00 ms - stDev:       0.00 ms
+             flood8:     107.00 ms - stDev:       0.00 ms
+        flood4Stack:     110.00 ms - stDev:       0.00 ms
+        flood4Queue:     122.00 ms - stDev:       0.00 ms
+        flood8Stack:     139.00 ms - stDev:       0.00 ms
+        flood8Queue:     153.00 ms - stDev:       0.00 ms
+      floodScanline:     293.00 ms - stDev:       0.00 ms
+ floodScanlineStack:      88.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:      87.00 ms - stDev:       0.00 ms
+ floodWestEastStack:      95.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     128.00 ms - stDev:       0.00 ms
+
+
+Map: maps/lt_gallowstemplar_n.map: Grid size: 0251x0180 - (01 run)
+
+             flood4:      75.00 ms - stDev:       0.00 ms
+             flood8:     105.00 ms - stDev:       0.00 ms
+        flood4Stack:     111.00 ms - stDev:       0.00 ms
+        flood4Queue:     122.00 ms - stDev:       0.00 ms
+        flood8Stack:     136.00 ms - stDev:       0.00 ms
+        flood8Queue:     153.00 ms - stDev:       0.00 ms
+      floodScanline:     278.00 ms - stDev:       0.00 ms
+ floodScanlineStack:      88.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:      87.00 ms - stDev:       0.00 ms
+ floodWestEastStack:      94.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     127.00 ms - stDev:       0.00 ms
+
+
+Map: maps/lt_gamlenshouse_n.map: Grid size: 0156x0102 - (01 run)
+
+             flood4:      18.00 ms - stDev:       0.00 ms
+             flood8:      21.00 ms - stDev:       0.00 ms
+        flood4Stack:      27.00 ms - stDev:       0.00 ms
+        flood4Queue:      27.00 ms - stDev:       0.00 ms
+        flood8Stack:      30.00 ms - stDev:       0.00 ms
+        flood8Queue:      30.00 ms - stDev:       0.00 ms
+      floodScanline:      30.00 ms - stDev:       0.00 ms
+ floodScanlineStack:      25.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:      25.00 ms - stDev:       0.00 ms
+ floodWestEastStack:      24.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:      25.00 ms - stDev:       0.00 ms
+
+
+Map: maps/lt_hangedman.map: Grid size: 0129x0135 - (01 run)
+
+             flood4:      31.00 ms - stDev:       0.00 ms
+             flood8:      45.00 ms - stDev:       0.00 ms
+        flood4Stack:      46.00 ms - stDev:       0.00 ms
+        flood4Queue:      48.00 ms - stDev:       0.00 ms
+        flood8Stack:      58.00 ms - stDev:       0.00 ms
+        flood8Queue:      61.00 ms - stDev:       0.00 ms
+      floodScanline:     149.00 ms - stDev:       0.00 ms
+ floodScanlineStack:      36.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:      36.00 ms - stDev:       0.00 ms
+ floodWestEastStack:      40.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:      45.00 ms - stDev:       0.00 ms
+
+
+Map: maps/lt_hangedman_n.map: Grid size: 0129x0135 - (01 run)
+
+             flood4:      31.00 ms - stDev:       0.00 ms
+             flood8:      45.00 ms - stDev:       0.00 ms
+        flood4Stack:      45.00 ms - stDev:       0.00 ms
+        flood4Queue:      47.00 ms - stDev:       0.00 ms
+        flood8Stack:      57.00 ms - stDev:       0.00 ms
+        flood8Queue:      60.00 ms - stDev:       0.00 ms
+      floodScanline:     149.00 ms - stDev:       0.00 ms
+ floodScanlineStack:      37.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:      36.00 ms - stDev:       0.00 ms
+ floodWestEastStack:      40.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:      44.00 ms - stDev:       0.00 ms
+
+
+Map: maps/lt_house.map: Grid size: 0054x0053 - (01 run)
+
+             flood4:       6.00 ms - stDev:       0.00 ms
+             flood8:       9.00 ms - stDev:       0.00 ms
+        flood4Stack:       8.00 ms - stDev:       0.00 ms
+        flood4Queue:       8.00 ms - stDev:       0.00 ms
+        flood8Stack:      10.00 ms - stDev:       0.00 ms
+        flood8Queue:      11.00 ms - stDev:       0.00 ms
+      floodScanline:      14.00 ms - stDev:       0.00 ms
+ floodScanlineStack:       6.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:       6.00 ms - stDev:       0.00 ms
+ floodWestEastStack:       7.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:       7.00 ms - stDev:       0.00 ms
+
+
+Map: maps/lt_ruinedhouse_n.map: Grid size: 0156x0102 - (01 run)
+
+             flood4:      17.00 ms - stDev:       0.00 ms
+             flood8:      21.00 ms - stDev:       0.00 ms
+        flood4Stack:      27.00 ms - stDev:       0.00 ms
+        flood4Queue:      27.00 ms - stDev:       0.00 ms
+        flood8Stack:      30.00 ms - stDev:       0.00 ms
+        flood8Queue:      29.00 ms - stDev:       0.00 ms
+      floodScanline:      29.00 ms - stDev:       0.00 ms
+ floodScanlineStack:      25.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:      25.00 ms - stDev:       0.00 ms
+ floodWestEastStack:      23.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:      24.00 ms - stDev:       0.00 ms
+
+
+Map: maps/lt_shop.map: Grid size: 0156x0102 - (01 run)
+
+             flood4:      17.00 ms - stDev:       0.00 ms
+             flood8:      20.00 ms - stDev:       0.00 ms
+        flood4Stack:      26.00 ms - stDev:       0.00 ms
+        flood4Queue:      27.00 ms - stDev:       0.00 ms
+        flood8Stack:      28.00 ms - stDev:       0.00 ms
+        flood8Queue:      28.00 ms - stDev:       0.00 ms
+      floodScanline:      26.00 ms - stDev:       0.00 ms
+ floodScanlineStack:      25.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:      24.00 ms - stDev:       0.00 ms
+ floodWestEastStack:      23.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:      23.00 ms - stDev:       0.00 ms
+
+
+Map: maps/lt_undercitydungeon.map: Grid size: 0184x0177 - (01 run)
+
+             flood4:     120.00 ms - stDev:       0.00 ms
+             flood8:     226.00 ms - stDev:       0.00 ms
+        flood4Stack:     226.00 ms - stDev:       0.00 ms
+        flood4Queue:     235.00 ms - stDev:       0.00 ms
+        flood8Stack:     294.00 ms - stDev:       0.00 ms
+        flood8Queue:     291.00 ms - stDev:       0.00 ms
+      floodScanline:     443.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     125.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     124.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     143.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     148.00 ms - stDev:       0.00 ms
+
+
+Map: maps/lt_undercityencounter.map: Grid size: 0128x0283 - (01 run)
+
+             flood4:     110.00 ms - stDev:       0.00 ms
+             flood8:     142.00 ms - stDev:       0.00 ms
+        flood4Stack:     136.00 ms - stDev:       0.00 ms
+        flood4Queue:     148.00 ms - stDev:       0.00 ms
+        flood8Stack:     165.00 ms - stDev:       0.00 ms
+        flood8Queue:     175.00 ms - stDev:       0.00 ms
+      floodScanline:     380.00 ms - stDev:       0.00 ms
+ floodScanlineStack:      93.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:      92.00 ms - stDev:       0.00 ms
+ floodWestEastStack:      96.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     106.00 ms - stDev:       0.00 ms
+
+
+Map: maps/lt_undercityserialkiller.map: Grid size: 0184x0177 - (01 run)
+
+             flood4:      71.00 ms - stDev:       0.00 ms
+             flood8:     103.00 ms - stDev:       0.00 ms
+        flood4Stack:      97.00 ms - stDev:       0.00 ms
+        flood4Queue:     100.00 ms - stDev:       0.00 ms
+        flood8Stack:     126.00 ms - stDev:       0.00 ms
+        flood8Queue:     130.00 ms - stDev:       0.00 ms
+      floodScanline:     263.00 ms - stDev:       0.00 ms
+ floodScanlineStack:      70.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:      69.00 ms - stDev:       0.00 ms
+ floodWestEastStack:      79.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:      90.00 ms - stDev:       0.00 ms
+
+
+Map: maps/lt_warehouse.map: Grid size: 0194x0130 - (01 run)
+
+             flood4:      44.00 ms - stDev:       0.00 ms
+             flood8:      62.00 ms - stDev:       0.00 ms
+        flood4Stack:      61.00 ms - stDev:       0.00 ms
+        flood4Queue:      65.00 ms - stDev:       0.00 ms
+        flood8Stack:     197.00 ms - stDev:       0.00 ms
+        flood8Queue:     211.00 ms - stDev:       0.00 ms
+      floodScanline:     330.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     125.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     126.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     136.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     163.00 ms - stDev:       0.00 ms
+
+
+Map: maps/lt_warehouse_n.map: Grid size: 0194x0130 - (01 run)
+
+             flood4:      88.00 ms - stDev:       0.00 ms
+             flood8:     122.00 ms - stDev:       0.00 ms
+        flood4Stack:     127.00 ms - stDev:       0.00 ms
+        flood4Queue:     123.00 ms - stDev:       0.00 ms
+        flood8Stack:     145.00 ms - stDev:       0.00 ms
+        flood8Queue:     154.00 ms - stDev:       0.00 ms
+      floodScanline:     218.00 ms - stDev:       0.00 ms
+ floodScanlineStack:      84.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:      85.00 ms - stDev:       0.00 ms
+ floodWestEastStack:      91.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     106.00 ms - stDev:       0.00 ms
+
+
+Map: maps/maze-100-1.map: Grid size: 0100x0100 - (01 run)
+
+             flood4:      39.00 ms - stDev:       0.00 ms
+             flood8:      62.00 ms - stDev:       0.00 ms
+        flood4Stack:      52.00 ms - stDev:       0.00 ms
+        flood4Queue:      53.00 ms - stDev:       0.00 ms
+        flood8Stack:      91.00 ms - stDev:       0.00 ms
+        flood8Queue:     119.00 ms - stDev:       0.00 ms
+      floodScanline:    1405.00 ms - stDev:       0.00 ms
+ floodScanlineStack:      88.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:      88.00 ms - stDev:       0.00 ms
+ floodWestEastStack:      95.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:      78.00 ms - stDev:       0.00 ms
+
+
+Map: maps/maze-1100-11.map: Grid size: 1100x1100 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:    7599.00 ms - stDev:       0.00 ms
+        flood4Queue:   11949.00 ms - stDev:       0.00 ms
+        flood8Stack:   10082.00 ms - stDev:       0.00 ms
+        flood8Queue:   16764.00 ms - stDev:       0.00 ms
+      floodScanline:               failed: stack overflow
+ floodScanlineStack:    4355.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:    4307.00 ms - stDev:       0.00 ms
+ floodWestEastStack:    6213.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:   15685.00 ms - stDev:       0.00 ms
+
+
+Map: maps/maze-1250-12.map: Grid size: 1250x1250 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:   13744.00 ms - stDev:       0.00 ms
+        flood4Queue:   20525.00 ms - stDev:       0.00 ms
+        flood8Stack:   13234.00 ms - stDev:       0.00 ms
+        flood8Queue:   23319.00 ms - stDev:       0.00 ms
+      floodScanline:               failed: stack overflow
+ floodScanlineStack:    5649.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:    5651.00 ms - stDev:       0.00 ms
+ floodWestEastStack:    7878.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:   25711.00 ms - stDev:       0.00 ms
+
+
+Map: maps/maze-1400-14.map: Grid size: 1400x1400 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:   12030.00 ms - stDev:       0.00 ms
+        flood4Queue:   25116.00 ms - stDev:       0.00 ms
+        flood8Stack:   23419.00 ms - stDev:       0.00 ms
+        flood8Queue:   29204.00 ms - stDev:       0.00 ms
+      floodScanline:               failed: stack overflow
+ floodScanlineStack:    7126.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:    7094.00 ms - stDev:       0.00 ms
+ floodWestEastStack:    9922.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:   30918.00 ms - stDev:       0.00 ms
+
+
+Map: maps/maze-1550-15.map: Grid size: 1550x1550 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:   17294.00 ms - stDev:       0.00 ms
+        flood4Queue:   33629.00 ms - stDev:       0.00 ms
+        flood8Stack:   23506.00 ms - stDev:       0.00 ms
+        flood8Queue:   43627.00 ms - stDev:       0.00 ms
+      floodScanline:               failed: stack overflow
+ floodScanlineStack:    8891.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:    8907.00 ms - stDev:       0.00 ms
+ floodWestEastStack:   14990.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:   53752.00 ms - stDev:       0.00 ms
+
+
+Map: maps/maze-400-4.map: Grid size: 0400x0400 - (01 run)
+
+             flood4:    1516.00 ms - stDev:       0.00 ms
+             flood8:    1730.00 ms - stDev:       0.00 ms
+        flood4Stack:    1161.00 ms - stDev:       0.00 ms
+        flood4Queue:    1191.00 ms - stDev:       0.00 ms
+        flood8Stack:    1205.00 ms - stDev:       0.00 ms
+        flood8Queue:    1456.00 ms - stDev:       0.00 ms
+      floodScanline:   13202.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     576.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     576.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     736.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:    1075.00 ms - stDev:       0.00 ms
+
+
+Map: maps/maze-600-6.map: Grid size: 0600x0600 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:    1967.00 ms - stDev:       0.00 ms
+        flood4Queue:    2743.00 ms - stDev:       0.00 ms
+        flood8Stack:    2885.00 ms - stDev:       0.00 ms
+        flood8Queue:    4774.00 ms - stDev:       0.00 ms
+      floodScanline:               failed: stack overflow
+ floodScanlineStack:    1303.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:    1304.00 ms - stDev:       0.00 ms
+ floodWestEastStack:    1715.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:    3236.00 ms - stDev:       0.00 ms
+
+
+Map: maps/maze-800-8.map: Grid size: 0800x0800 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:    3723.00 ms - stDev:       0.00 ms
+        flood4Queue:   12860.00 ms - stDev:       0.00 ms
+        flood8Stack:   11576.00 ms - stDev:       0.00 ms
+        flood8Queue:   19804.00 ms - stDev:       0.00 ms
+      floodScanline:               failed: stack overflow
+ floodScanlineStack:    5575.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:    4830.00 ms - stDev:       0.00 ms
+ floodWestEastStack:    7307.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:   16969.00 ms - stDev:       0.00 ms
+
+
+Map: maps/maze-950-9.map: Grid size: 0950x0950 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:    8202.00 ms - stDev:       0.00 ms
+        flood4Queue:    8708.00 ms - stDev:       0.00 ms
+        flood8Stack:    7346.00 ms - stDev:       0.00 ms
+        flood8Queue:   11927.00 ms - stDev:       0.00 ms
+      floodScanline:               failed: stack overflow
+ floodScanlineStack:    7483.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:    6385.00 ms - stDev:       0.00 ms
+ floodWestEastStack:    4560.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:   17513.00 ms - stDev:       0.00 ms
+
+
+Map: maps/orz000d.map: Grid size: 0079x0137 - (01 run)
+
+             flood4:      24.00 ms - stDev:       0.00 ms
+             flood8:      36.00 ms - stDev:       0.00 ms
+        flood4Stack:      34.00 ms - stDev:       0.00 ms
+        flood4Queue:      35.00 ms - stDev:       0.00 ms
+        flood8Stack:      45.00 ms - stDev:       0.00 ms
+        flood8Queue:      46.00 ms - stDev:       0.00 ms
+      floodScanline:      60.00 ms - stDev:       0.00 ms
+ floodScanlineStack:      24.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:      24.00 ms - stDev:       0.00 ms
+ floodWestEastStack:      29.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:      34.00 ms - stDev:       0.00 ms
+
+
+Map: maps/orz100d.map: Grid size: 0412x0395 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:     762.00 ms - stDev:       0.00 ms
+        flood4Queue:     999.00 ms - stDev:       0.00 ms
+        flood8Stack:    1042.00 ms - stDev:       0.00 ms
+        flood8Queue:    1489.00 ms - stDev:       0.00 ms
+      floodScanline:    3258.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     469.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     463.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     613.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:    1265.00 ms - stDev:       0.00 ms
+
+
+Map: maps/orz101d.map: Grid size: 0048x0095 - (01 run)
+
+             flood4:      10.00 ms - stDev:       0.00 ms
+             flood8:      16.00 ms - stDev:       0.00 ms
+        flood4Stack:      14.00 ms - stDev:       0.00 ms
+        flood4Queue:      16.00 ms - stDev:       0.00 ms
+        flood8Stack:      19.00 ms - stDev:       0.00 ms
+        flood8Queue:      20.00 ms - stDev:       0.00 ms
+      floodScanline:      33.00 ms - stDev:       0.00 ms
+ floodScanlineStack:      10.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:      11.00 ms - stDev:       0.00 ms
+ floodWestEastStack:      13.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:      15.00 ms - stDev:       0.00 ms
+
+
+Map: maps/orz102d.map: Grid size: 0046x0047 - (01 run)
+
+             flood4:       4.00 ms - stDev:       0.00 ms
+             flood8:       7.00 ms - stDev:       0.00 ms
+        flood4Stack:       7.00 ms - stDev:       0.00 ms
+        flood4Queue:       7.00 ms - stDev:       0.00 ms
+        flood8Stack:       9.00 ms - stDev:       0.00 ms
+        flood8Queue:       9.00 ms - stDev:       0.00 ms
+      floodScanline:      10.00 ms - stDev:       0.00 ms
+ floodScanlineStack:       5.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:       5.00 ms - stDev:       0.00 ms
+ floodWestEastStack:       6.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:       8.00 ms - stDev:       0.00 ms
+
+
+Map: maps/orz103d.map: Grid size: 0463x0456 - (01 run)
+
+             flood4:     333.00 ms - stDev:       0.00 ms
+             flood8:     456.00 ms - stDev:       0.00 ms
+        flood4Stack:     903.00 ms - stDev:       0.00 ms
+        flood4Queue:    1396.00 ms - stDev:       0.00 ms
+        flood8Stack:    1147.00 ms - stDev:       0.00 ms
+        flood8Queue:    1441.00 ms - stDev:       0.00 ms
+      floodScanline:    4938.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     970.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:    1035.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     829.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:    1320.00 ms - stDev:       0.00 ms
+
+
+Map: maps/orz105d.map: Grid size: 0047x0060 - (01 run)
+
+             flood4:      15.00 ms - stDev:       0.00 ms
+             flood8:      16.00 ms - stDev:       0.00 ms
+        flood4Stack:      16.00 ms - stDev:       0.00 ms
+        flood4Queue:      18.00 ms - stDev:       0.00 ms
+        flood8Stack:      20.00 ms - stDev:       0.00 ms
+        flood8Queue:      21.00 ms - stDev:       0.00 ms
+      floodScanline:      22.00 ms - stDev:       0.00 ms
+ floodScanlineStack:      10.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:      14.00 ms - stDev:       0.00 ms
+ floodWestEastStack:      17.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:      13.00 ms - stDev:       0.00 ms
+
+
+Map: maps/orz106d.map: Grid size: 0025x0033 - (01 run)
+
+             flood4:       5.00 ms - stDev:       0.00 ms
+             flood8:       8.00 ms - stDev:       0.00 ms
+        flood4Stack:       5.00 ms - stDev:       0.00 ms
+        flood4Queue:       7.00 ms - stDev:       0.00 ms
+        flood8Stack:       8.00 ms - stDev:       0.00 ms
+        flood8Queue:      10.00 ms - stDev:       0.00 ms
+      floodScanline:      10.00 ms - stDev:       0.00 ms
+ floodScanlineStack:       5.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:       5.00 ms - stDev:       0.00 ms
+ floodWestEastStack:       6.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:       7.00 ms - stDev:       0.00 ms
+
+
+Map: maps/orz107d.map: Grid size: 0034x0048 - (01 run)
+
+             flood4:      10.00 ms - stDev:       0.00 ms
+             flood8:      15.00 ms - stDev:       0.00 ms
+        flood4Stack:      13.00 ms - stDev:       0.00 ms
+        flood4Queue:      13.00 ms - stDev:       0.00 ms
+        flood8Stack:      21.00 ms - stDev:       0.00 ms
+        flood8Queue:      16.00 ms - stDev:       0.00 ms
+      floodScanline:      18.00 ms - stDev:       0.00 ms
+ floodScanlineStack:      10.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:      10.00 ms - stDev:       0.00 ms
+ floodWestEastStack:      14.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:      13.00 ms - stDev:       0.00 ms
+
+
+Map: maps/orz200d.map: Grid size: 0272x0260 - (01 run)
+
+             flood4:     215.00 ms - stDev:       0.00 ms
+             flood8:     249.00 ms - stDev:       0.00 ms
+        flood4Stack:     296.00 ms - stDev:       0.00 ms
+        flood4Queue:     307.00 ms - stDev:       0.00 ms
+        flood8Stack:     268.00 ms - stDev:       0.00 ms
+        flood8Queue:     273.00 ms - stDev:       0.00 ms
+      floodScanline:     546.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     172.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     162.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     146.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     157.00 ms - stDev:       0.00 ms
+
+
+Map: maps/orz201d.map: Grid size: 0047x0045 - (01 run)
+
+             flood4:       7.00 ms - stDev:       0.00 ms
+             flood8:       9.00 ms - stDev:       0.00 ms
+        flood4Stack:       9.00 ms - stDev:       0.00 ms
+        flood4Queue:       9.00 ms - stDev:       0.00 ms
+        flood8Stack:      10.00 ms - stDev:       0.00 ms
+        flood8Queue:      11.00 ms - stDev:       0.00 ms
+      floodScanline:      13.00 ms - stDev:       0.00 ms
+ floodScanlineStack:       6.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:       6.00 ms - stDev:       0.00 ms
+ floodWestEastStack:       7.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:       6.00 ms - stDev:       0.00 ms
+
+
+Map: maps/orz203d.map: Grid size: 0019x0035 - (01 run)
+
+             flood4:       2.00 ms - stDev:       0.00 ms
+             flood8:       2.00 ms - stDev:       0.00 ms
+        flood4Stack:       2.00 ms - stDev:       0.00 ms
+        flood4Queue:       3.00 ms - stDev:       0.00 ms
+        flood8Stack:       3.00 ms - stDev:       0.00 ms
+        flood8Queue:       3.00 ms - stDev:       0.00 ms
+      floodScanline:       2.00 ms - stDev:       0.00 ms
+ floodScanlineStack:       1.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:       2.00 ms - stDev:       0.00 ms
+ floodWestEastStack:       2.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:       2.00 ms - stDev:       0.00 ms
+
+
+Map: maps/orz300d.map: Grid size: 0649x0386 - (01 run)
+
+             flood4:     590.00 ms - stDev:       0.00 ms
+             flood8:               failed: stack overflow
+        flood4Stack:     811.00 ms - stDev:       0.00 ms
+        flood4Queue:    1125.00 ms - stDev:       0.00 ms
+        flood8Stack:    1102.00 ms - stDev:       0.00 ms
+        flood8Queue:    2523.00 ms - stDev:       0.00 ms
+      floodScanline:    4886.00 ms - stDev:       0.00 ms
+ floodScanlineStack:    1391.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:    1438.00 ms - stDev:       0.00 ms
+ floodWestEastStack:    1743.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:    3342.00 ms - stDev:       0.00 ms
+
+
+Map: maps/orz301d.map: Grid size: 0120x0180 - (01 run)
+
+             flood4:      60.00 ms - stDev:       0.00 ms
+             flood8:      84.00 ms - stDev:       0.00 ms
+        flood4Stack:      89.00 ms - stDev:       0.00 ms
+        flood4Queue:      97.00 ms - stDev:       0.00 ms
+        flood8Stack:     113.00 ms - stDev:       0.00 ms
+        flood8Queue:     118.00 ms - stDev:       0.00 ms
+      floodScanline:     384.00 ms - stDev:       0.00 ms
+ floodScanlineStack:      68.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:      65.00 ms - stDev:       0.00 ms
+ floodWestEastStack:      66.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:      86.00 ms - stDev:       0.00 ms
+
+
+Map: maps/orz302d.map: Grid size: 0146x0145 - (01 run)
+
+             flood4:      58.00 ms - stDev:       0.00 ms
+             flood8:      78.00 ms - stDev:       0.00 ms
+        flood4Stack:      77.00 ms - stDev:       0.00 ms
+        flood4Queue:      85.00 ms - stDev:       0.00 ms
+        flood8Stack:     106.00 ms - stDev:       0.00 ms
+        flood8Queue:     103.00 ms - stDev:       0.00 ms
+      floodScanline:     249.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     121.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     114.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     123.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     143.00 ms - stDev:       0.00 ms
+
+
+Map: maps/orz303d.map: Grid size: 0390x0267 - (01 run)
+
+             flood4:     455.00 ms - stDev:       0.00 ms
+             flood8:     662.00 ms - stDev:       0.00 ms
+        flood4Stack:     507.00 ms - stDev:       0.00 ms
+        flood4Queue:     529.00 ms - stDev:       0.00 ms
+        flood8Stack:     489.00 ms - stDev:       0.00 ms
+        flood8Queue:     547.00 ms - stDev:       0.00 ms
+      floodScanline:    1109.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     261.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     268.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     239.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     295.00 ms - stDev:       0.00 ms
+
+
+Map: maps/orz304d.map: Grid size: 0075x0155 - (01 run)
+
+             flood4:      30.00 ms - stDev:       0.00 ms
+             flood8:      47.00 ms - stDev:       0.00 ms
+        flood4Stack:      42.00 ms - stDev:       0.00 ms
+        flood4Queue:      47.00 ms - stDev:       0.00 ms
+        flood8Stack:      58.00 ms - stDev:       0.00 ms
+        flood8Queue:      61.00 ms - stDev:       0.00 ms
+      floodScanline:     167.00 ms - stDev:       0.00 ms
+ floodScanlineStack:      29.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:      29.00 ms - stDev:       0.00 ms
+ floodWestEastStack:      35.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:      40.00 ms - stDev:       0.00 ms
+
+
+Map: maps/orz500d.map: Grid size: 0303x0342 - (01 run)
+
+             flood4:     169.00 ms - stDev:       0.00 ms
+             flood8:     597.00 ms - stDev:       0.00 ms
+        flood4Stack:     650.00 ms - stDev:       0.00 ms
+        flood4Queue:     529.00 ms - stDev:       0.00 ms
+        flood8Stack:     545.00 ms - stDev:       0.00 ms
+        flood8Queue:     588.00 ms - stDev:       0.00 ms
+      floodScanline:    1191.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     230.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     217.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     228.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     265.00 ms - stDev:       0.00 ms
+
+
+Map: maps/orz601d.map: Grid size: 0107x0047 - (01 run)
+
+             flood4:      11.00 ms - stDev:       0.00 ms
+             flood8:      18.00 ms - stDev:       0.00 ms
+        flood4Stack:      17.00 ms - stDev:       0.00 ms
+        flood4Queue:      17.00 ms - stDev:       0.00 ms
+        flood8Stack:      21.00 ms - stDev:       0.00 ms
+        flood8Queue:      23.00 ms - stDev:       0.00 ms
+      floodScanline:      27.00 ms - stDev:       0.00 ms
+ floodScanlineStack:      11.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:      12.00 ms - stDev:       0.00 ms
+ floodWestEastStack:      13.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:      18.00 ms - stDev:       0.00 ms
+
+
+Map: maps/orz700d.map: Grid size: 1104x1260 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:    3573.00 ms - stDev:       0.00 ms
+        flood4Queue:    6584.00 ms - stDev:       0.00 ms
+        flood8Stack:    3157.00 ms - stDev:       0.00 ms
+        flood8Queue:    3048.00 ms - stDev:       0.00 ms
+      floodScanline:   34293.00 ms - stDev:       0.00 ms
+ floodScanlineStack:    5766.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:    4985.00 ms - stDev:       0.00 ms
+ floodWestEastStack:    2328.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:    2688.00 ms - stDev:       0.00 ms
+
+
+Map: maps/orz701d.map: Grid size: 0839x0722 - (01 run)
+
+             flood4:     719.00 ms - stDev:       0.00 ms
+             flood8:     829.00 ms - stDev:       0.00 ms
+        flood4Stack:    1125.00 ms - stDev:       0.00 ms
+        flood4Queue:    1141.00 ms - stDev:       0.00 ms
+        flood8Stack:    1234.00 ms - stDev:       0.00 ms
+        flood8Queue:    1281.00 ms - stDev:       0.00 ms
+      floodScanline:   10079.00 ms - stDev:       0.00 ms
+ floodScanlineStack:    2579.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:    1703.00 ms - stDev:       0.00 ms
+ floodWestEastStack:    2469.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:    2672.00 ms - stDev:       0.00 ms
+
+
+Map: maps/orz702d.map: Grid size: 0718x0939 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:    3485.00 ms - stDev:       0.00 ms
+        flood4Queue:    3047.00 ms - stDev:       0.00 ms
+        flood8Stack:    3719.00 ms - stDev:       0.00 ms
+        flood8Queue:    3781.00 ms - stDev:       0.00 ms
+      floodScanline:   13220.00 ms - stDev:       0.00 ms
+ floodScanlineStack:    1375.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:    1140.00 ms - stDev:       0.00 ms
+ floodWestEastStack:    3235.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:    3734.00 ms - stDev:       0.00 ms
+
+
+Map: maps/orz703d.map: Grid size: 0652x0502 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:    1703.00 ms - stDev:       0.00 ms
+        flood4Queue:    1578.00 ms - stDev:       0.00 ms
+        flood8Stack:    3000.00 ms - stDev:       0.00 ms
+        flood8Queue:    2094.00 ms - stDev:       0.00 ms
+      floodScanline:    3532.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     687.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:    1484.00 ms - stDev:       0.00 ms
+ floodWestEastStack:    1703.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:    2922.00 ms - stDev:       0.00 ms
+
+
+Map: maps/orz704d.map: Grid size: 0084x0046 - (01 run)
+
+             flood4:      15.00 ms - stDev:       0.00 ms
+             flood8:      47.00 ms - stDev:       0.00 ms
+        flood4Stack:      47.00 ms - stDev:       0.00 ms
+        flood4Queue:      47.00 ms - stDev:       0.00 ms
+        flood8Stack:      47.00 ms - stDev:       0.00 ms
+        flood8Queue:      62.00 ms - stDev:       0.00 ms
+      floodScanline:      47.00 ms - stDev:       0.00 ms
+ floodScanlineStack:      31.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:      15.00 ms - stDev:       0.00 ms
+ floodWestEastStack:      31.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:      47.00 ms - stDev:       0.00 ms
+
+
+Map: maps/orz800d.map: Grid size: 0868x0844 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:    3501.00 ms - stDev:       0.00 ms
+        flood4Queue:    3672.00 ms - stDev:       0.00 ms
+        flood8Stack:    2126.00 ms - stDev:       0.00 ms
+        flood8Queue:    1812.00 ms - stDev:       0.00 ms
+      floodScanline:   12438.00 ms - stDev:       0.00 ms
+ floodScanlineStack:    3125.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:    2047.00 ms - stDev:       0.00 ms
+ floodWestEastStack:    1562.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:    2282.00 ms - stDev:       0.00 ms
+
+
+Map: maps/orz900d.map: Grid size: 1491x0656 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:    1969.00 ms - stDev:       0.00 ms
+        flood4Queue:    2157.00 ms - stDev:       0.00 ms
+        flood8Stack:    4547.00 ms - stDev:       0.00 ms
+        flood8Queue:    2594.00 ms - stDev:       0.00 ms
+      floodScanline:   16611.00 ms - stDev:       0.00 ms
+ floodScanlineStack:    3055.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:    4781.00 ms - stDev:       0.00 ms
+ floodWestEastStack:    3985.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:    3266.00 ms - stDev:       0.00 ms
+
+
+Map: maps/orz901d.map: Grid size: 0601x0678 - (01 run)
+
+             flood4:     547.00 ms - stDev:       0.00 ms
+             flood8:     672.00 ms - stDev:       0.00 ms
+        flood4Stack:     860.00 ms - stDev:       0.00 ms
+        flood4Queue:     875.00 ms - stDev:       0.00 ms
+        flood8Stack:    1141.00 ms - stDev:       0.00 ms
+        flood8Queue:    2750.00 ms - stDev:       0.00 ms
+      floodScanline:    8876.00 ms - stDev:       0.00 ms
+ floodScanlineStack:    1828.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:    1329.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     985.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:    1047.00 ms - stDev:       0.00 ms
+
+
+Map: maps/orz999d.map: Grid size: 0632x0698 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:     891.00 ms - stDev:       0.00 ms
+        flood4Queue:     953.00 ms - stDev:       0.00 ms
+        flood8Stack:    1063.00 ms - stDev:       0.00 ms
+        flood8Queue:    1078.00 ms - stDev:       0.00 ms
+      floodScanline:    3031.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     797.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     766.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     781.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     922.00 ms - stDev:       0.00 ms
+
+
+Map: maps/random-100-33.map: Grid size: 0100x0100 - (01 run)
+
+             flood4:      31.00 ms - stDev:       0.00 ms
+             flood8:      62.00 ms - stDev:       0.00 ms
+        flood4Stack:      47.00 ms - stDev:       0.00 ms
+        flood4Queue:      47.00 ms - stDev:       0.00 ms
+        flood8Stack:      63.00 ms - stDev:       0.00 ms
+        flood8Queue:      78.00 ms - stDev:       0.00 ms
+      floodScanline:     469.00 ms - stDev:       0.00 ms
+ floodScanlineStack:      32.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:      47.00 ms - stDev:       0.00 ms
+ floodWestEastStack:      47.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:      62.00 ms - stDev:       0.00 ms
+
+
+Map: maps/random-1100-33.map: Grid size: 1100x1100 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:    6563.00 ms - stDev:       0.00 ms
+        flood4Queue:   16189.00 ms - stDev:       0.00 ms
+        flood8Stack:    8500.00 ms - stDev:       0.00 ms
+        flood8Queue:   27642.00 ms - stDev:       0.00 ms
+      floodScanline:               failed: stack overflow
+ floodScanlineStack:    4938.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:    6798.00 ms - stDev:       0.00 ms
+ floodWestEastStack:    6219.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:   17516.00 ms - stDev:       0.00 ms
+
+
+Map: maps/random-1250-33.map: Grid size: 1250x1250 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:    7579.00 ms - stDev:       0.00 ms
+        flood4Queue:   21516.00 ms - stDev:       0.00 ms
+        flood8Stack:   11016.00 ms - stDev:       0.00 ms
+        flood8Queue:   61378.00 ms - stDev:       0.00 ms
+      floodScanline:               failed: stack overflow
+ floodScanlineStack:   15110.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:   10938.00 ms - stDev:       0.00 ms
+ floodWestEastStack:   12376.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:   39689.00 ms - stDev:       0.00 ms
+
+
+Map: maps/random-1400-33.map: Grid size: 1400x1400 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:   16578.00 ms - stDev:       0.00 ms
+        flood4Queue:   33190.00 ms - stDev:       0.00 ms
+        flood8Stack:   14516.00 ms - stDev:       0.00 ms
+        flood8Queue:   50221.00 ms - stDev:       0.00 ms
+      floodScanline:               failed: stack overflow
+ floodScanlineStack:    8360.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:   12360.00 ms - stDev:       0.00 ms
+ floodWestEastStack:   10781.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:   34330.00 ms - stDev:       0.00 ms
+
+
+Map: maps/random-1550-33.map: Grid size: 1550x1550 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:   12485.00 ms - stDev:       0.00 ms
+        flood4Queue:   39408.00 ms - stDev:       0.00 ms
+        flood8Stack:   17314.00 ms - stDev:       0.00 ms
+        flood8Queue:   66800.00 ms - stDev:       0.00 ms
+      floodScanline:               failed: stack overflow
+ floodScanlineStack:   10219.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:   16032.00 ms - stDev:       0.00 ms
+ floodWestEastStack:   12954.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:   46737.00 ms - stDev:       0.00 ms
+
+
+Map: maps/random-400-33.map: Grid size: 0400x0400 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:     781.00 ms - stDev:       0.00 ms
+        flood4Queue:    1125.00 ms - stDev:       0.00 ms
+        flood8Stack:    1093.00 ms - stDev:       0.00 ms
+        flood8Queue:    1734.00 ms - stDev:       0.00 ms
+      floodScanline:               failed: stack overflow
+ floodScanlineStack:     609.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     688.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     782.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:    1282.00 ms - stDev:       0.00 ms
+
+
+Map: maps/random-600-33.map: Grid size: 0600x0600 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:    1687.00 ms - stDev:       0.00 ms
+        flood4Queue:    3110.00 ms - stDev:       0.00 ms
+        flood8Stack:    2406.00 ms - stDev:       0.00 ms
+        flood8Queue:    4890.00 ms - stDev:       0.00 ms
+      floodScanline:               failed: stack overflow
+ floodScanlineStack:    1407.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:    1703.00 ms - stDev:       0.00 ms
+ floodWestEastStack:    1781.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:    3532.00 ms - stDev:       0.00 ms
+
+
+Map: maps/random-800-33.map: Grid size: 0800x0800 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:    3109.00 ms - stDev:       0.00 ms
+        flood4Queue:    6641.00 ms - stDev:       0.00 ms
+        flood8Stack:    4391.00 ms - stDev:       0.00 ms
+        flood8Queue:   10594.00 ms - stDev:       0.00 ms
+      floodScanline:               failed: stack overflow
+ floodScanlineStack:    2547.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:    3251.00 ms - stDev:       0.00 ms
+ floodWestEastStack:    3203.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:    7594.00 ms - stDev:       0.00 ms
+
+
+Map: maps/random-950-33.map: Grid size: 0950x0950 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:    4391.00 ms - stDev:       0.00 ms
+        flood4Queue:   10298.00 ms - stDev:       0.00 ms
+        flood8Stack:    6516.00 ms - stDev:       0.00 ms
+        flood8Queue:   16720.00 ms - stDev:       0.00 ms
+      floodScanline:               failed: stack overflow
+ floodScanlineStack:    3625.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:    4860.00 ms - stDev:       0.00 ms
+ floodWestEastStack:    4579.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:   11688.00 ms - stDev:       0.00 ms
+
+
+Map: maps/room-100-10.map: Grid size: 0100x0100 - (01 run)
+
+             flood4:      31.00 ms - stDev:       0.00 ms
+             flood8:      63.00 ms - stDev:       0.00 ms
+        flood4Stack:      47.00 ms - stDev:       0.00 ms
+        flood4Queue:      62.00 ms - stDev:       0.00 ms
+        flood8Stack:      62.00 ms - stDev:       0.00 ms
+        flood8Queue:      94.00 ms - stDev:       0.00 ms
+      floodScanline:     204.00 ms - stDev:       0.00 ms
+ floodScanlineStack:      46.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:      31.00 ms - stDev:       0.00 ms
+ floodWestEastStack:      47.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:      79.00 ms - stDev:       0.00 ms
+
+
+Map: maps/room-1100-110.map: Grid size: 1100x1100 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:    8688.00 ms - stDev:       0.00 ms
+        flood4Queue:   31877.00 ms - stDev:       0.00 ms
+        flood8Stack:   12281.00 ms - stDev:       0.00 ms
+        flood8Queue:   98927.00 ms - stDev:       0.00 ms
+      floodScanline:   40845.00 ms - stDev:       0.00 ms
+ floodScanlineStack:    7313.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:    7532.00 ms - stDev:       0.00 ms
+ floodWestEastStack:    6094.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:   39190.00 ms - stDev:       0.00 ms
+
+
+Map: maps/room-1250-125.map: Grid size: 1250x1250 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:   11016.00 ms - stDev:       0.00 ms
+        flood4Queue:   45705.00 ms - stDev:       0.00 ms
+        flood8Stack:   15657.00 ms - stDev:       0.00 ms
+        flood8Queue:  122772.00 ms - stDev:       0.00 ms
+      floodScanline:   39845.00 ms - stDev:       0.00 ms
+ floodScanlineStack:    5844.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:    5985.00 ms - stDev:       0.00 ms
+ floodWestEastStack:    8095.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:   74837.00 ms - stDev:       0.00 ms
+
+
+Map: maps/room-1400-140.map: Grid size: 1400x1400 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:   17752.00 ms - stDev:       0.00 ms
+        flood4Queue:   94363.00 ms - stDev:       0.00 ms
+        flood8Stack:   29839.00 ms - stDev:       0.00 ms
+        flood8Queue:  138855.00 ms - stDev:       0.00 ms
+      floodScanline:   57946.00 ms - stDev:       0.00 ms
+ floodScanlineStack:    7811.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:   13004.00 ms - stDev:       0.00 ms
+ floodWestEastStack:   18686.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:  148607.00 ms - stDev:       0.00 ms
+
+
+Map: maps/room-1550-155.map: Grid size: 1550x1550 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:   17678.00 ms - stDev:       0.00 ms
+        flood4Queue:  107265.00 ms - stDev:       0.00 ms
+        flood8Stack:   46393.00 ms - stDev:       0.00 ms
+        flood8Queue:  269201.00 ms - stDev:       0.00 ms
+      floodScanline:   82064.00 ms - stDev:       0.00 ms
+ floodScanlineStack:   21267.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:   17982.00 ms - stDev:       0.00 ms
+ floodWestEastStack:   13302.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:  194490.00 ms - stDev:       0.00 ms
+
+
+Map: maps/room-400-40.map: Grid size: 0400x0400 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:    1121.00 ms - stDev:       0.00 ms
+        flood4Queue:    1920.00 ms - stDev:       0.00 ms
+        flood8Stack:    1509.00 ms - stDev:       0.00 ms
+        flood8Queue:    3129.00 ms - stDev:       0.00 ms
+      floodScanline:    3483.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     602.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     592.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     902.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:    2260.00 ms - stDev:       0.00 ms
+
+
+Map: maps/room-600-60.map: Grid size: 0600x0600 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:    2570.00 ms - stDev:       0.00 ms
+        flood4Queue:    6278.00 ms - stDev:       0.00 ms
+        flood8Stack:    3648.00 ms - stDev:       0.00 ms
+        flood8Queue:    9897.00 ms - stDev:       0.00 ms
+      floodScanline:    8418.00 ms - stDev:       0.00 ms
+ floodScanlineStack:    1374.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:    1385.00 ms - stDev:       0.00 ms
+ floodWestEastStack:    2028.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:    7563.00 ms - stDev:       0.00 ms
+
+
+Map: maps/room-800-80.map: Grid size: 0800x0800 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:    4870.00 ms - stDev:       0.00 ms
+        flood4Queue:   13476.00 ms - stDev:       0.00 ms
+        flood8Stack:    6752.00 ms - stDev:       0.00 ms
+        flood8Queue:   23132.00 ms - stDev:       0.00 ms
+      floodScanline:   15722.00 ms - stDev:       0.00 ms
+ floodScanlineStack:    2575.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:    2699.00 ms - stDev:       0.00 ms
+ floodWestEastStack:    3580.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:   20033.00 ms - stDev:       0.00 ms
+
+
+Map: maps/room-950-95.map: Grid size: 0950x0950 - (01 run)
+
+             flood4:               failed: stack overflow
+             flood8:               failed: stack overflow
+        flood4Stack:    7579.00 ms - stDev:       0.00 ms
+        flood4Queue:   24116.00 ms - stDev:       0.00 ms
+        flood8Stack:   10191.00 ms - stDev:       0.00 ms
+        flood8Queue:   38139.00 ms - stDev:       0.00 ms
+      floodScanline:   22692.00 ms - stDev:       0.00 ms
+ floodScanlineStack:    3500.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:    3657.00 ms - stDev:       0.00 ms
+ floodWestEastStack:    4902.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:   29286.00 ms - stDev:       0.00 ms
+
+
+Map: maps/w_blightlands.map: Grid size: 0514x0514 - (01 run)
+
+             flood4:     311.00 ms - stDev:       0.00 ms
+             flood8:     344.00 ms - stDev:       0.00 ms
+        flood4Stack:     469.00 ms - stDev:       0.00 ms
+        flood4Queue:     476.00 ms - stDev:       0.00 ms
+        flood8Stack:     513.00 ms - stDev:       0.00 ms
+        flood8Queue:     515.00 ms - stDev:       0.00 ms
+      floodScanline:    1519.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     435.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     431.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     410.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     444.00 ms - stDev:       0.00 ms
+
+
+Map: maps/w_bonepit.map: Grid size: 0514x0450 - (01 run)
+
+             flood4:     287.00 ms - stDev:       0.00 ms
+             flood8:     333.00 ms - stDev:       0.00 ms
+        flood4Stack:     426.00 ms - stDev:       0.00 ms
+        flood4Queue:     438.00 ms - stDev:       0.00 ms
+        flood8Stack:     478.00 ms - stDev:       0.00 ms
+        flood8Queue:     488.00 ms - stDev:       0.00 ms
+      floodScanline:     931.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     382.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     378.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     365.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     407.00 ms - stDev:       0.00 ms
+
+
+Map: maps/w_bonepitdestroyed_a3.map: Grid size: 0514x0450 - (01 run)
+
+             flood4:     318.00 ms - stDev:       0.00 ms
+             flood8:     416.00 ms - stDev:       0.00 ms
+        flood4Stack:     495.00 ms - stDev:       0.00 ms
+        flood4Queue:     524.00 ms - stDev:       0.00 ms
+        flood8Stack:     568.00 ms - stDev:       0.00 ms
+        flood8Queue:     617.00 ms - stDev:       0.00 ms
+      floodScanline:    1248.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     413.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     410.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     424.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     500.00 ms - stDev:       0.00 ms
+
+
+Map: maps/w_bonepitmining_a2.map: Grid size: 0514x0450 - (01 run)
+
+             flood4:     280.00 ms - stDev:       0.00 ms
+             flood8:     312.00 ms - stDev:       0.00 ms
+        flood4Stack:     427.00 ms - stDev:       0.00 ms
+        flood4Queue:     433.00 ms - stDev:       0.00 ms
+        flood8Stack:     456.00 ms - stDev:       0.00 ms
+        flood8Queue:     470.00 ms - stDev:       0.00 ms
+      floodScanline:     977.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     401.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     396.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     360.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     398.00 ms - stDev:       0.00 ms
+
+
+Map: maps/w_encounter1.map: Grid size: 0258x0514 - (01 run)
+
+             flood4:     146.00 ms - stDev:       0.00 ms
+             flood8:     162.00 ms - stDev:       0.00 ms
+        flood4Stack:     228.00 ms - stDev:       0.00 ms
+        flood4Queue:     230.00 ms - stDev:       0.00 ms
+        flood8Stack:     240.00 ms - stDev:       0.00 ms
+        flood8Queue:     245.00 ms - stDev:       0.00 ms
+      floodScanline:     493.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     222.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     213.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     203.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     205.00 ms - stDev:       0.00 ms
+
+
+Map: maps/w_encounter2.map: Grid size: 0514x0514 - (01 run)
+
+             flood4:     336.00 ms - stDev:       0.00 ms
+             flood8:     425.00 ms - stDev:       0.00 ms
+        flood4Stack:     517.00 ms - stDev:       0.00 ms
+        flood4Queue:     568.00 ms - stDev:       0.00 ms
+        flood8Stack:     595.00 ms - stDev:       0.00 ms
+        flood8Queue:     662.00 ms - stDev:       0.00 ms
+      floodScanline:    1354.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     452.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     450.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     449.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     548.00 ms - stDev:       0.00 ms
+
+
+Map: maps/w_encounter2_camp.map: Grid size: 0514x0514 - (01 run)
+
+             flood4:     333.00 ms - stDev:       0.00 ms
+             flood8:     411.00 ms - stDev:       0.00 ms
+        flood4Stack:     519.00 ms - stDev:       0.00 ms
+        flood4Queue:     577.00 ms - stDev:       0.00 ms
+        flood8Stack:     583.00 ms - stDev:       0.00 ms
+        flood8Queue:     650.00 ms - stDev:       0.00 ms
+      floodScanline:    1293.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     444.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     452.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     442.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     542.00 ms - stDev:       0.00 ms
+
+
+Map: maps/w_encounter3.map: Grid size: 0386x0642 - (01 run)
+
+             flood4:     254.00 ms - stDev:       0.00 ms
+             flood8:     271.00 ms - stDev:       0.00 ms
+        flood4Stack:     393.00 ms - stDev:       0.00 ms
+        flood4Queue:     399.00 ms - stDev:       0.00 ms
+        flood8Stack:     415.00 ms - stDev:       0.00 ms
+        flood8Queue:     412.00 ms - stDev:       0.00 ms
+      floodScanline:     805.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     390.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     380.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     349.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     360.00 ms - stDev:       0.00 ms
+
+
+Map: maps/w_sundermount.map: Grid size: 0770x0770 - (01 run)
+
+             flood4:     706.00 ms - stDev:       0.00 ms
+             flood8:     820.00 ms - stDev:       0.00 ms
+        flood4Stack:    1121.00 ms - stDev:       0.00 ms
+        flood4Queue:    1124.00 ms - stDev:       0.00 ms
+        flood8Stack:    1215.00 ms - stDev:       0.00 ms
+        flood8Queue:    1281.00 ms - stDev:       0.00 ms
+      floodScanline:    3907.00 ms - stDev:       0.00 ms
+ floodScanlineStack:    1015.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:    1027.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     981.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:    1085.00 ms - stDev:       0.00 ms
+
+
+Map: maps/w_woundedcoast.map: Grid size: 0642x0578 - (01 run)
+
+             flood4:     489.00 ms - stDev:       0.00 ms
+             flood8:     595.00 ms - stDev:       0.00 ms
+        flood4Stack:     797.00 ms - stDev:       0.00 ms
+        flood4Queue:     779.00 ms - stDev:       0.00 ms
+        flood8Stack:     829.00 ms - stDev:       0.00 ms
+        flood8Queue:     900.00 ms - stDev:       0.00 ms
+      floodScanline:    3668.00 ms - stDev:       0.00 ms
+ floodScanlineStack:     648.00 ms - stDev:       0.00 ms
+ floodScanlineQueue:     667.00 ms - stDev:       0.00 ms
+ floodWestEastStack:     667.00 ms - stDev:       0.00 ms
+ floodWestEastQueue:     758.00 ms - stDev:       0.00 ms
